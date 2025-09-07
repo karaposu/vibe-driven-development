@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [Introduction](README.md)
 * [Preface](content/preface.md)
@@ -7,11 +7,9 @@
 
 * [Chapter 0: Terminology](content/chapter_0/01_terminology.md)
 * [Chapter 1: The Evolution of Development](content/chapter_1/01_from_waterfall_to_agile_to_ai_assisted.md)
-  * [From Waterfall to Agile to AI-Assisted](content/chapter_1/01_from_waterfall_to_agile_to_ai_assisted.md)
   * [The Birth of Vibe Coding](content/chapter_1/02_the_birth_of_vibe_coding.md)
   * [Why Traditional Methods Fall Short with AI](content/chapter_1/03_why_traditional_methods_fall_short_with_ai.md)
 * [Chapter 2: Core Philosophy](content/chapter_2/01_code_is_documentation_to_documentation_is_code.md)
-  * [Code is Documentation → Documentation is Code](content/chapter_2/01_code_is_documentation_to_documentation_is_code.md)
   * [Semantic Precision and "The Butterfly Defect"](content/chapter_2/02_semantic_precision_and_butterfly_defect.md)
   * [AI Taming: Keeping Control While Leveraging Power](content/chapter_2/03_ai_taming_keeping_control.md)
   * [Emergence of New Design Patterns](content/chapter_2/04_emergence_of_new_design_patterns.md)
@@ -20,14 +18,11 @@
 ## Part II: Understanding AI Collaboration
 
 * [Chapter 3: How AI Thinks About Code](content/chapter_3/01_attention_mechanism.md)
-  * [Attention Mechanism](content/chapter_3/01_attention_mechanism.md)
   * [Context Windows and Memory](content/chapter_3/02_context_windows_and_memory.md)
   * [Strengths and Limitations](content/chapter_3/03_strengths_and_limitations.md)
 * [Chapter 4: The Human-AI Development Loop](content/chapter_4/01_when_to_guide_vs_follow.md)
-  * [When to Guide vs When to Follow](content/chapter_4/01_when_to_guide_vs_follow.md)
   * [Managing AI Drift](content/chapter_4/02_managing_ai_drift.md)
 * [Chapter 5: Setting Up for Success](content/chapter_5/02_essential_ground_rules.md)
-  * [Essential Ground Rules](content/chapter_5/02_essential_ground_rules.md)
   * [Project Structure Standards](content/chapter_5/03_project_structure_standards.md)
 
 ## Part III: Vibe Coding Patterns
