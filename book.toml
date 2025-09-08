@@ -1,0 +1,50 @@
+[book]
+title = "Vibe-Driven Development (VDD)"
+authors = ["VDD Community"]
+language = "en"
+multilingual = false
+src = "src"
+description = "A revolutionary approach to software development designed for the age of AI-assisted programming"
+
+[build]
+build-dir = "book"
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+smart-punctuation = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+site-url = "https://ns.github.io/vibe-driven-development/"
+git-repository-url = "https://github.com/ns/vibe-driven-development"
+edit-url-template = "https://github.com/ns/vibe-driven-development/edit/main/src/{path}"
+additional-css = []
+additional-js = []
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = false
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
