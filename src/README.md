@@ -15,11 +15,12 @@ This book doesn't introduce new concepts. Instead, it codifies what many develop
 
 ### Core Principles
 
+VDD operates on four pillars of explicitness:
+
 - **Radical Transparency**: Make everything visible - tests, data flows, transformations
 - **Verbose Communication**: Chatty tests that explain what's happening
 - **Explicit Over Implicit**: No hidden behaviors or assumptions
 - **Human-in-the-Loop**: Maintain control while leveraging AI power
-
 
 
 
@@ -32,6 +33,8 @@ And recently we face immense pressure in our craft to harness the power of AI-as
 
 VDD bridges this gap. An evolving framework for true developer-AI partnership without the compromises.
    
+
+
 ## What You'll Learn
 
 This book provides both philosophical foundation and practical implementation:
@@ -62,10 +65,8 @@ This book is for you if you've ever:
 - **Experienced Developer?** Chapters 0-4 provide a 15-minute introduction to essential concepts
 - **Ready to Implement?** Jump directly to the appendices for practical prompts
 
-## Contributing
+## Join our discussions for more tips
 
-This is a living document that evolves with the community's experiences and insights. Your feedback and contributions help shape the future of human-AI collaboration in software development.
+Linkedin: 
+Discord: 
 
----
-
-Begin your journey into Vibe-Driven Development and discover how to build software with confidence in the age of AI.
