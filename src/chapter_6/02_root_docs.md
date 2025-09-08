@@ -1,33 +1,48 @@
-##  Project Desc  ROOT Documentation
+# Root Documentation: The Foundation
+
+## Why Foundation Documents Matter
+
+Foundation documents are the bedrock of VDD. They are basically your original thoughts but in a structured format.  They establish the unchanging truths about your project that guide every decision. 
+
+These three documents form a hierarchy of intent:
+- **What** we're building (project_description.md)
+- **Why** we're building it (philosophy.md)  
+- **How** we must build it (known_requirements.md)
+
+AI reads these first in every session. They become the lens through which AI interprets all subsequent instructions.
 
 ## The Three Foundation Documents
 
-### 1. project_description.md
+### 1. project_description.md - The North Star
 
-This document explains the project in general with all available details. It is basically structured version of messy project data.
-  It should answer:
-     What are we building?
-     What problem are we solving
-     What are the various scopes of this project?
+This document transforms scattered project information into structured understanding. It's the single source of truth about what you're building.
 
-
-This document anchors everything. AI reads this first.
-
-### 2. philosophy.md
-
-This document focuses of real world impacts/motivations/goals of the project. Holds important information and prevents  Complexity Drift as well as Scope Drift. 
-Answers "what is the philosophy of this project?". Doesnt go into technical details but aims to capture the soft requirements and goals which are usually missed. 
+**Core Questions to Answer:**
+- What are we building?
+- What are the various scopes of this project?
+- What problem are wee solving?
+- What does success look like?
+- Who will use it and why?
 
 
+### 2. philosophy.md - The Soul
 
-### 3. known_requirements.md
+Philosophy captures the intangible aspects that shape every decision. It's about values, not features. This document prevents technically correct but visionally/spiritually wrong implementations. 
 
-Answer the question of 
-What constraints exist for given project. 
-And inspect the Requirements in 3 main categories:
 
- - Known Technical Requirements
- - Known Business Requirements
- - Known User Requirements
+**Core Question to Answer:**
+- what is the philosophy of this project?
 
-Requirements ground AI suggestions in reality.
+
+
+### 3. known_requirements.md - The Contract
+
+Requirements translate vision into concrete constraints. They define the boundaries within which AI must operate.
+
+**Core Questions to Answer:**
+- What technical constraints exist?
+- What business rules apply?
+- What user needs must be met?
+- What regulations must we follow?
+
+

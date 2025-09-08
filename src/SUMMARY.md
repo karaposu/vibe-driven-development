@@ -22,8 +22,7 @@
   - [Strengths and Limitations](chapter_3/03_strengths_and_limitations.md)
 - [Chapter 4: The Human-AI Development Loop](chapter_4/01_when_to_guide_vs_follow.md)
   - [Managing AI Drift](chapter_4/02_managing_ai_drift.md)
-- [Chapter 5: Setting Up for Success](chapter_5/02_essential_ground_rules.md)
-  - [Project Structure Standards](chapter_5/03_project_structure_standards.md)
+- [Chapter 5: Essential Ground Rules](chapter_5/02_essential_ground_rules.md)
 
 # Part III: Vibe Coding Patterns
 
