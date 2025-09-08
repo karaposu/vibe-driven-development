@@ -20,9 +20,9 @@ smart-punctuation = true
 mathjax-support = false
 copy-fonts = true
 no-section-label = false
-site-url = "https://ns.github.io/vibe-driven-development/"
-git-repository-url = "https://github.com/ns/vibe-driven-development"
-edit-url-template = "https://github.com/ns/vibe-driven-development/edit/main/src/{path}"
+site-url = "https://karaposu.github.io/vibe-driven-development/"
+git-repository-url = "https://github.com/karaposu/vibe-driven-development"
+edit-url-template = "https://github.com/karaposu/vibe-driven-development/edit/main/src/{path}"
 additional-css = []
 additional-js = []
 

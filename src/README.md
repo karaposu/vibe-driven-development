@@ -1,5 +1,9 @@
 # Vibe-Driven Development (VDD): Introduction & Practical Guide
 
+<div align="center">
+  <img src="cover.png" alt="Vibe-Driven Development Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
+</div>
+
 ## Welcome
 
 Welcome to the comprehensive guide on Vibe-Driven Development (VDD) - a revolutionary approach to software development designed for the age of AI-assisted programming.
