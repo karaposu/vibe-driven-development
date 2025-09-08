@@ -18,8 +18,8 @@ NOT: "How should users export data?"
 AI suggests patterns. You choose based on reality.
 
 ```
-GUIDE: "We're using microservices because we have separate teams"
-NOT: "Should we use microservices?"
+GUIDE: "Use REST APIs since our mobile team knows it well"
+NOT: "Should we use REST or GraphQL?"
 ```
 
 ### 3. Performance Constraints

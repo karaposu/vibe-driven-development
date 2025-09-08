@@ -1,12 +1,12 @@
-# Lighten Pattern
+# Offload Pattern
 
 ## Making AI's Job Easier
 
-Traditional development assumes human limitations. Vibe coding flips this - we optimize for AI capabilities. The Lighten Pattern is about structuring everything to make AI's job as easy as possible.
+Traditional development assumes human limitations. Vibe coding flips this - we optimize for AI capabilities. The Offload Pattern is about structuring everything to make AI's job as easy as possible.
 
 Think of it like organizing a kitchen for a chef who's blindfolded but has perfect memory. Everything needs to be exactly where they expect it.
 
-## Why Lighten Matters
+## Why Offload Matters
 
 AI works best when:
 - Context is clear and unambiguous
@@ -21,7 +21,7 @@ When you make AI's job easier, you get:
 - Fewer misunderstandings and revisions
 - More time for creative problem-solving
 
-## Core Principles of Lightening
+## Core Principles of Offloading
 
 ### 1. Explicit Over Implicit
 
@@ -33,7 +33,7 @@ export const p = (d) => {
 }
 ```
 
-**Lightened:**
+**Offloaded:**
 ```javascript
 // utils/calculateTotalPrice.js
 /**
@@ -58,7 +58,7 @@ The app needs auth, should work offline, use React but not Redux,
 connect to PostgreSQL, handle errors gracefully, and deploy to AWS.
 ```
 
-**Lightened:**
+**Offloaded:**
 ```markdown
 ## Requirements
 
@@ -92,7 +92,7 @@ Orders.retrieve(order_id)
 loadCustomerInfo({customerId})
 ```
 
-**Lightened:**
+**Offloaded:**
 ```javascript
 // One consistent pattern
 getUser(userId)
@@ -117,7 +117,7 @@ src/
 └── index.js
 ```
 
-**Lightened:**
+**Offloaded:**
 ```
 src/
 ├── features/
@@ -140,7 +140,7 @@ src/
 
 Clear organization helps AI understand relationships and dependencies.
 
-## Lightening Techniques
+## Offloading Techniques
 
 ### 1. The Example Pattern
 
@@ -310,7 +310,7 @@ Types provide clear contracts for AI to follow.
 
 Clear conventions prevent AI from inventing new patterns.
 
-## Advanced Lightening Strategies
+## Advanced Offloading Strategies
 
 ### The Playground Pattern
 
@@ -434,20 +434,20 @@ setState({ message: 'Hello' })
 
 ## Measuring Lightness
 
-How do you know if you've lightened enough?
+How do you know if you've offloaded enough?
 
 ### The New Session Test
-Start a completely new AI session. Share your lightening documents. Ask AI to implement a feature. If it works first try, you're light enough.
+Start a completely new AI session. Share your offloading documents. Ask AI to implement a feature. If it works first try, you're light enough.
 
 ### The Consistency Test
-Have AI generate code for similar features. Compare outputs. High consistency = good lightening.
+Have AI generate code for similar features. Compare outputs. High consistency = good offloading.
 
 ### The Correction Count
-Track how often you correct AI. Fewer corrections = better lightening.
+Track how often you correct AI. Fewer corrections = better offloading.
 
-## Common Lightening Mistakes
+## Common Offloading Mistakes
 
-### Over-Lightening
+### Over-Offloading
 Don't constrain creativity:
 ```markdown
 # TOO LIGHT
@@ -456,7 +456,7 @@ Every file must have exactly 3 functions.
 Every component must use all 5 hooks.
 ```
 
-### Under-Lightening  
+### Under-Offloading  
 Vague guidance helps nobody:
 ```markdown
 # TOO HEAVY
@@ -465,7 +465,7 @@ Follow best practices.
 Keep it simple.
 ```
 
-### Outdated Lightening
+### Outdated Offloading
 Keep guides current:
 ```markdown
 # Version: 2.1
@@ -473,7 +473,7 @@ Keep guides current:
 # Changes: Switched from Redux to Zustand
 ```
 
-## The Lightening Checklist
+## The Offloading Checklist
 
 Before starting a project with AI:
 - [ ] Clear file structure documented
@@ -487,8 +487,8 @@ Before starting a project with AI:
 
 ## The Meta-Principle
 
-Lightening isn't about control - it's about clarity. You're not restricting AI, you're empowering it with perfect understanding of your intentions.
+Offloading isn't about control - it's about clarity. You're not restricting AI, you're empowering it with perfect understanding of your intentions.
 
-The best code is generated when AI doesn't have to guess. Lighten the load, and watch AI soar.
+The best code is generated when AI doesn't have to guess. Offload the load, and watch AI soar.
 
 Next: Part IV - The Vibe Coding Method →

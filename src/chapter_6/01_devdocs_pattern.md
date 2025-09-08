@@ -9,7 +9,7 @@ This is why devdocs pattern is used. It is the realtime projection of AI's mind 
 And also without devdocs pattern. When we ask AI to do/implement something, it will include hidden task of planning
 as well and due to context limitations memory state might be missing vital info and doing planning and implementation in one step will usuall introduce errors and hallucinations. 
 
-Just like humans, it is easier for AI to focus on one task. This is why we will lighten it's task by enforcing a seperation between planning phase and implementation phase. 
+Just like humans, it is easier for AI to focus on one task. This is why we will offload complexity by enforcing a separation between planning phase and implementation phase. 
 
 So Devdocs pattern basically 
 

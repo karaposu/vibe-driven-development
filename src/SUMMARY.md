@@ -38,7 +38,7 @@
 - [Chapter 7: Smoke Tests Pattern](chapter_7/smoke_tests_pattern.md)
 - [Chapter 8: Fuzzy Architecture](chapter_8/fuzzy_architecture.md)
 - [Chapter 9: The Anchor Pattern](chapter_9/the_anchor_pattern.md)
-- [Chapter 10: Lighten Pattern](chapter_10/lighten_pattern.md)
+- [Chapter 10: Offload Pattern](chapter_10/offload_pattern.md)
 
 # Part IV: The Vibe Coding Method
 

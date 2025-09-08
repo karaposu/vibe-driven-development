@@ -22,10 +22,10 @@ Not the implementation - the specification.
 
 ## The Paradigm Flip
 
-With AI, we're returning to the original meaning. Documentation doesn't describe code anymore - it generates it.
+With AI and VDD, we're returning to the original meaning. Documentation doesn't describe code anymore - it generates it and therefore they are tightly coupled
 
 **Old world**: Write code → Extract documentation
-**New world**: Write documentation with ai while Generating code
+**New world**: Write documentation with AI while Generating code
 
 The documentation becomes the "codex" - the law that governs what gets built.
 
@@ -50,13 +50,11 @@ AI doesn't just read this - it implements it. The documentation isn't describing
 ## Documentation as Source Code
 
 In vibe coding:
-- README.md compiles to architecture
-- Interface.md compiles to APIs  
-- Requirements.md compiles to features
+- project_description.md compiles to architecture
+- interface.md compiles to APIs  
+- known_requirements.md compiles to features
 
 Your documentation is source code for an AI compiler.
 
-## The Irony
 
-We've come full circle. "Code is documentation" meant only code tells truth. Now "documentation is code" means documentation creates truth.
 

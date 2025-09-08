@@ -1,4 +1,4 @@
-# Vibe-Driven Development (VDD): Introduction & Practical Guide
+# Vibe-Driven Development (VDD): Practical Guide
 
 <div align="center">
   <img src="cover.png" alt="Vibe-Driven Development Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
@@ -8,7 +8,7 @@
 
 Welcome to the comprehensive guide on Vibe-Driven Development (VDD). This emerging methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline.
 
-Unlike pure vibe coding, VDD provides systematic and repeatable foundations as well as granular control throughout the development process.
+Unlike pure vibe coding, VDD offers systematic, repeatable foundations and fine-grained control at every stage of development.
 
 This book doesn't introduce new concepts. Instead, it codifies what many developers already do instinctively, turning scattered practices into a cohesive methodology.
 

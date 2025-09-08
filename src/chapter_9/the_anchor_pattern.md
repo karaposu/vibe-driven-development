@@ -392,4 +392,4 @@ Anchoring isn't about perfection - it's about detection. You will break things. 
 
 Remember: In vibe coding, AI is powerful but forgetful. Anchors are your safety net.
 
-Next: Lighten Pattern →
+Next: Offload Pattern →

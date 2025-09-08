@@ -5,13 +5,6 @@
 ### 1. Syntax Perfection
 AI never forgets a semicolon, bracket, or quote. Perfect syntax, every time.
 
-```python
-# Human: Often forgets
-except ValueError as e  # oops, forgot the colon
-
-# AI: Never forgets
-except ValueError as e:
-```
 
 ### 2. Pattern Recognition
 Sees patterns across thousands of files instantly.
@@ -52,14 +45,13 @@ Rename across files, extract methods, restructure - seconds not hours.
 ### 7. Best Practices Knowledge
 Knows every style guide, security practice, performance optimization.
 
-## AI Limitations: The Kryptonite
-
+## AI Limitations:
 
 
 ### 1. Runtime Blindness
 
-AI can run the code but it might be limited due to UI needs interaction or app needs human voice input etc. 
-In such moments we must cover for AI and provide what is need. 
+
+While AI can write code for interactive features, it can't always test them because UI interactions, voice inputs, visual feedback etc, require human senses and actions. We become AI's eyes and hands for runtime validation.
 
 
 ### 2. Hallucination Tendency

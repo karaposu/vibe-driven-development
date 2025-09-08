@@ -37,7 +37,7 @@ Solution: Constantly run tests to verify old functionality still works.
 
 Discovery: AI's limited context means you must actively maintain working state.
 
-### 5. Lightening the Load
+### 5. Offloading the Load
 Problem: AI gets confused by inconsistent patterns and unclear structure.
 
 Solution: Make everything explicit, consistent, and well-organized for AI.
@@ -62,14 +62,14 @@ Developers started sharing patterns that would become core to vibe coding:
 **"Smoke Tests" Pattern**: Verbose tests that validate AI understands your intent
 **"Fuzzy Architecture" Pattern**: Start intentionally vague, let structure emerge through building
 **"Anchor" Pattern**: Force AI to verify old functionality still works after changes
-**"Lighten" Pattern**: Structure everything to make AI's job as easy as possible
+**"Offload" Pattern**: Structure everything to make AI's job as easy as possible
 
 These weren't arbitrary - they solved real problems:
 - DevDocs gave AI persistent context across sessions
 - Smoke tests caught AI misunderstandings early
 - Fuzzy architecture prevented overengineering
 - Anchors prevented silent breakage as context drifted
-- Lightening reduced AI confusion and errors
+- Offloading reduced AI confusion and errors
 
 ## Why "Vibe"?
 

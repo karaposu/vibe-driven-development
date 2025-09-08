@@ -78,9 +78,11 @@ When you catch a Butterfly Defect:
 3. Explicitly state what you mean
 4. Let AI adjust course
 
-Better to fix terminology early than refactor architecture later.
+
+"Fix your terminology now, or refactor your entire architecture later."
 
 
 ## Using a clearly named variables 
 
-Because ai treats variables together with their names, sacrificing shortness in order to clearly define a varible is good practice.  
+Since AI understands variables also through their names, longer descriptive names are better than short cryptic ones.
+

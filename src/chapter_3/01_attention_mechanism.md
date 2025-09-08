@@ -11,7 +11,7 @@ Think of it like this:
 
 ## Why it matters
 
-knowing how attention works can help you lighten the work of LLM. 
+Knowing how attention works can help you offload complexity from the LLM. 
 
 ## The Spotlight Metaphor
 

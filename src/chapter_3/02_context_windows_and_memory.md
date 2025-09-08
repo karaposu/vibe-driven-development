@@ -3,14 +3,8 @@
 ## The Fundamental Limitation
 
 Every AI has a context window - the total amount of text it can "see" at once. Think of it as RAM, not hard drive.
+Even tho we see huge gains in terms of incresed context length it still matter to use it efficiently. 
 
-As of 2025 
-
-- Claude (Pro): ~100k tokens
-- GPT-5 (Pro): ~128k tokens  
-
-
-One token ≈ 0.75 words. Do the math for your codebase.
 
 ## Context Window !== Memory
 

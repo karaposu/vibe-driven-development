@@ -44,7 +44,7 @@ Chapter 6:  "DevDocs" Pattern
 Chapter 7:  Smoke Tests Pattern
 chapter 8:  Fuzzy Architecture 
 chapter 9:  The Anchor Pattern
-chapter 10: lighten Pattern
+chapter 10: Offload Pattern
 
 
 Part IV: The Vibe Coding Method 
