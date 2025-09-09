@@ -1,4 +1,4 @@
-# Chapter 11: The Data Dump
+# The Data Dump
 
 ## Starting with Complete Context
 
