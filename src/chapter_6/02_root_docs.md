@@ -2,14 +2,14 @@
 
 ## Why Foundation Documents Matter
 
-Foundation documents are the bedrock of VDD. They are basically your original thoughts but in a structured format.  They establish the unchanging truths about your project that guide every decision. 
+Foundation documents are the bedrock of VDD. They capture your original vision in a structured format, establishing the core truths that guide every decision throughout the project. 
 
 These three documents form a hierarchy of intent:
 - **What** we're building (project_description.md)
 - **Why** we're building it (philosophy.md)  
 - **How** we must build it (known_requirements.md)
 
-AI reads these first in every session. They become the lens through which AI interprets all subsequent instructions.
+AI reads these first in every session. They become the lens through which AI interprets all subsequent project development.
 
 ## The Three Foundation Documents
 
@@ -20,7 +20,7 @@ This document transforms scattered project information into structured understan
 **Core Questions to Answer:**
 - What are we building?
 - What are the various scopes of this project?
-- What problem are wee solving?
+- What problem are we solving?
 - What does success look like?
 - Who will use it and why?
 

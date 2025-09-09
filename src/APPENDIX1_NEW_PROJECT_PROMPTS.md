@@ -200,19 +200,20 @@ Let's design comprehensive smoke tests to validate our implementation.
 Please create smoke_tests folder if it doesnt exists. and Please create a test plan with the following structure:
 
 1. 5 test files, each containing 5 focused test cases
-2. File naming convention: test_01_[test_focus_area].py, test_02_[next_focus_area].py, etc.
-3. Make sure these tests 
+2. Avoid mocking and use real componenets with real calls with real data. 
+3. File naming convention: test_01_[test_focus_area].py, test_02_[next_focus_area].py, etc.
+4. Make sure these tests 
       -  Individual functions/methods in isolation 
       -  Test how components work together
       -  Verify solidly defined requirements are met or not
-      
-4. For each test file, provide:
+       
+5. For each test file, provide:
   - Clear description of what aspect it tests
   - Why this testing area is critical
   - Brief outline of each test case within the file
-5. these tests shouldnt use any testing frameworks. Make the outputs verbose enough so you can see what exactly does not work. 
-6. Start with initialization test file. 
-7. Each test file's top comment should include how to run it manually. 
+6. these tests shouldnt use any testing frameworks. Make the outputs verbose enough so you can see what exactly does not work. 
+7. Start with initialization test file. 
+8. Each test file's top comment should include how to run it manually. 
 ```
 
 

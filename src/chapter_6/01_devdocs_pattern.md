@@ -49,7 +49,8 @@ project-root/
     │   ├── concept_clarifications/     # Detailed concept specs
     │   └── simplified_clarifications/  # Simplified specs
     │
- 
+    └── enhancements/             # Future improvements
+    │── explorations/             # freestyle exploration and analysis documents
     │
     ├── modules/
     │   └── [module_name]/
@@ -63,8 +64,9 @@ project-root/
     │           └── example_usage.md
                 └── summary.md
     │
-    └── enhancements/             # Future improvements
+   
 ```
+
 
 
 Besides from these there can be other type of side product documents depending on the project. 
