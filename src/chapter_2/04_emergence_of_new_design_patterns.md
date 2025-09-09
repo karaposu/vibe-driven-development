@@ -72,7 +72,4 @@ Patterns are teachable. New developers can learn "the vibe" quickly.
 Individual patterns are useful. Combined, they're transformative. Flexible yet directed development. Confident incremental progress. And in the end a robust and intended outcome is ensured. 
 
 
-## Vibe-Pattern Evolution
-
-These patterns aren't fixed. As AI evolves, patterns evolve:
 

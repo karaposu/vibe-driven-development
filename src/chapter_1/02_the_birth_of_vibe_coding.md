@@ -95,4 +95,3 @@ Today, vibe coding is:
 
 The future isn't AI replacing developers. It's developers wielding AI through vibe coding.
 
-Next: Chapter 2 - Core Philosophy →
