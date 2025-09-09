@@ -1,4 +1,4 @@
-# Chapter 17: Deployment and Documentation
+# Deployment and Documentation
 
 ## From Development to Production
 

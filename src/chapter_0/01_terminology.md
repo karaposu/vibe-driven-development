@@ -1,4 +1,4 @@
-# Chapter 0: Terminology
+# Terminology
 
 This chapter defines key terms and concepts used throughout the Vibe-Driven Development methodology.
 
