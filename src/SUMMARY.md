@@ -22,18 +22,19 @@
   - [Strengths and Limitations](chapter_3/03_strengths_and_limitations.md)
 - [Chapter 4: The Human-AI Development Loop](chapter_4/01_when_to_guide_vs_follow.md)
   - [Managing AI Drift](chapter_4/02_managing_ai_drift.md)
-- [Chapter 5: Essential Ground Rules](chapter_5/02_essential_ground_rules.md)
+- [Chapter 5: Essential Ground Rules](chapter_5/01_essential_ground_rules.md)
+  - [The Data Dump](chapter_5/02_the_data_dump.md)
 
 # Part III: Vibe Coding Patterns
 
 - [Chapter 6: DevDocs Pattern](chapter_6/01_devdocs_pattern.md)
-  - [Root Docs](chapter_6/02_root_docs.md)
+  - [Foundation Docs](chapter_6/02_foundation_docs.md)
   - [Concept Docs](chapter_6/03_concept_docs.md)
-  - [Other Docs](chapter_6/04_other_docs.md)
-  - [Module Docs](chapter_6/05_module_docs.md)
-  - [Issues Docs](chapter_6/06_issues_docs.md)
+  - [Enhancement Docs](chapter_6/04_enhancements_docs.md)
+  - [Exploration Docs](chapter_6/05_explorations_docs.md)
+  - [Module Docs](chapter_6/06_module_docs.md)
+  - [Other Docs](chapter_6/06_other_docs.md)
   - [Archaeology Pattern](chapter_6/07_archaeology_pattern.md)
-  - [DevDocs Pattern Prompt for New Project](chapter_6/devdocs_pattern_prompt_for_new_project.md)
 - [Chapter 7: Smoke Tests Pattern](chapter_7/smoke_tests_pattern.md)
 - [Chapter 8: Fuzzy Architecture](chapter_8/fuzzy_architecture.md)
 - [Chapter 9: The Anchor Pattern](chapter_9/the_anchor_pattern.md)
@@ -41,19 +42,12 @@
 
 # Part IV: The Vibe Coding Method
 
-- [Chapter 11: The Data Dump](chapter_11/the_data_dump.md)
-- [Chapter 12: Establishing DevDocs](chapter_12/establishing_devdocs.md)
-- [Chapter 13: Architecture Evolution](chapter_13/architecture_evolution.md)
-- [Chapter 14: Modular Implementation](chapter_14/modular_implementation.md)
-- [Chapter 15: Testing and Validation](chapter_15/testing_and_validation.md)
-- [Chapter 16: Refactoring and Optimization](chapter_16/refactoring_and_optimization.md)
-- [Chapter 17: Deployment and Documentation](chapter_17/deployment_and_documentation.md)
+- [Chapter 11: Deployment and Documentation](chapter_12/deployment_and_documentation.md)
 
 # Appendices
 
 - [Appendix 1: New Project Prompts](APPENDIX1_NEW_PROJECT_PROMPTS.md)
 - [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md)
-- [Vibe Refactoring](vibe_refactoring.md)
 
 ---
 

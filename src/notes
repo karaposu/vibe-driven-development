@@ -2,13 +2,8 @@ Hofstadter’s Law:
 
 It always takes longer than you expect, even when you take into account Hofstadter’s Law.
 
-
-
-
+-----------
 Alistair Cockburn defined the Walking Skeleton practice as:
 
 a tiny implementation of the system that performs a small end-to-end function. It need not use the final architecture, but it should link together the main architectural components. The architecture and the functionality can then evolve in parallel.
-
-
-Stable Intermediate Forms: A Foundation Pattern for Derisking the Process of Change
 

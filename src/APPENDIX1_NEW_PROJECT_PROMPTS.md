@@ -2,6 +2,13 @@
 
 This appendix documetn contains ready-to-use prompts for IDEA -> PROTOTYPE.  These prompts contains established vibe coding patterns. Their detailed explanations can be found in related chapters.  
 
+Take attention that phase 7-13 should be repeated many times as the modules are needed. 
+
+      0 → 1 → 2 → 3 → 4 → 5 → 6 → ┌─[7 → 8 → 9 → 10 → 11 → 12]─┐ → 13 → 14
+                                    └─────────────←───────────────┘
+                                          (loop for each module)
+
+
 
 ##  IMPORTANT NOTES:
    - Do not forget to act as a human in the loop. Read each generated documentation and fix any misunderstanding asap. Otherwise they can propagate and cause bigger errors
@@ -39,7 +46,7 @@ Based on the provided project information, I need you to establish the DevDocs p
 First, analyze the project requirements and create a clear understanding of what we're building.
 Create the following foundation documents:
 
-1. devdocs/project_description.md
+1. devdocs/foundations/project_description.md
 
    What are we building?
    What problem are we solving
@@ -47,11 +54,11 @@ Create the following foundation documents:
    Who are the targeted users?
 
 
-2. devdocs/philosophy.md
+2. devdocs/foundations/philosophy.md
    - what is the philosophy of this project? (dont go into technical details)
 
    
-3. devdocs/known_requirements.md
+3. devdocs/foundations/known_requirements.md
    - Technical requirements
    - Business requirements 
    - User requirements 
@@ -67,12 +74,12 @@ This phase is explained in detail in chapter_6/03_concept_docs.md
 Using the foundation documents you just created (project_description.md, philosophy.md, known_requirements.md), 
 extract and document the key core concepts (only needed and core ones):
 
-1. Create devdocs/concepts.md
+1. Create devdocs/concepts/concepts.md
    - List only essential technical concepts
    - Order by importance/dependency
    - Brief one-line description for each
 
-2. For each concept, create detailed clarification in devdocs/concept_clarifications/
+2. For each concept, create detailed clarification in devdocs/concepts/concept_clarifications/
    Name files with ordering prefixes (01_[concept].md, 02_[concept].md, etc.)
    
    Each clarification must answer:
@@ -93,7 +100,7 @@ extract and document the key core concepts (only needed and core ones):
 This phase is explained in detail in chapter_6/03_concept_docs.md 
 
 ```
-I want you to create simplified_concepts.md using concepts.md and the goal is to trim the features but the core ones for each concept so we can still have these concepts but they are more about prototype. 
+I want you to create devdocs/concepts/simplified_concepts.md using concepts.md and the goal is to trim the features but the core ones for each concept so we can still have these concepts but they are more about prototype. 
 
 And make sure you follow these rules during simplification
         - do not oversimplify the concept to the point underlying architecture is oversimplified and does not support the original concept
@@ -112,7 +119,7 @@ which includes answer to these questions:
     - explain the good expected outcome of realizing this concept
     - explain the bad unwanted outcome of realizing this concept
 
-Put 1_ 2_ 3_ like prefix of each file to order them and make sure priotize the core concepts when you are ordering them. and do this in devdocs/simplified_concept_clarifications/
+Put 1_ 2_ 3_ like prefix of each file to order them and make sure priotize the core concepts when you are ordering them. and do this in devdocs/concepts/simplified_concept_clarifications/
 
 Critical: The simplification should reduce features, not break architecture and be flexible for future scope expansion
 ```
@@ -138,7 +145,7 @@ Review the simplified concepts and identify logical abstractions that can be org
 ```
 Based on the simplified concepts, and module proposal please propose the most suitable architecture for this project. Keep in mind that we'll be developing iteratively, evolving from a simple prototype to more complex versions over time. And our priority is solid foundation whcih can be expanded overtime and not immediate full scope solution. 
 
-Please use the info from module_proposal.md intelligently (you may choose not to create a module if it is not neccesary or overengineered for the MVP logic ) and avoid tightly coupled architecture. 
+Please use the info from module_proposal.md intelligently (you may choose not to accept a module if it is not neccesary or overengineered for the MVP logic ) and avoid tightly coupled architecture. 
 
 Key considerations:
 - Avoid over-engineering or excessive complexity or explicity at this stage
@@ -291,27 +298,20 @@ Create devdocs/modules/[module_name]/ containing:
 
 
 
-
-
-### Phase 12: Development Support Documents
+### Phase 12: INTEGRATION & SMOKE TESTS
 
 ```
-Create supporting documentation for development:
+Now that the module is complete and documented, integrate it with the core system:
 
-1. devdocs/decisions.md
-   - Log architectural decisions as you make them
-   - Format: Date, Decision, Reasoning, Trade-offs
+  1. Create integration tests between this module and any existing core components under smoke_tests 
+  2. Verify the module works within the larger system context
+  3. Test data flow between modules
+  4. Validate that the module's interfaces are being used correctly
+  5. Check for any unexpected side effects or performance impacts
+  6. Update smoke tests to include integration scenarios
 
-5. Create devdocs/issues/ structure:
-   - issues/solved/ - for resolved problems
-   - issues/unsolved/ - for known issues
-   - issues/relevant_to_future/ - for future considerations
+  Run all tests together to ensure the module doesn't break existing functionality.
+  
 ```
 
 
-
-### Phase 13: INTEGRATION & SMOKE TESTS
-
-```
-
-```
