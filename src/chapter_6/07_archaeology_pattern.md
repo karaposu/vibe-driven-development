@@ -1,80 +1,78 @@
-## The Archaeology Pattern: Creating DevDocs for Existing Projects
+## The Archaeology Pattern: DevDocs for Existing Projects
 
-Retrofitting DevDocs onto an existing codebase is different from starting fresh. You're reverse-engineering understanding from code that may have evolved organically over months or years.
+Creating DevDocs for an existing codebase is archaeological work - you're excavating layers of decisions, uncovering patterns, and reconstructing the evolution story. Without understanding why code evolved certain ways, AI might simplify architecture back to already-invalidated states.
 
-This pattern provides a systematic approach to create DevDocs for projects already in certain developed stage.
+This pattern systematically extracts DevDocs from mature codebases using AI assistance.
+
+### Step 0: Data Dump (Optional)
+
+If your codebase is not mature enough to define project aspects very well, then start by dumping all available project information as if you are starting from scratch.
+
+This raw material feeds the excavation process.
+
+### Step 1: Foundation Documents
+
+Ask AI to generate the three foundation documents:
+
+- project_description.md
+- philosophy.md
+- known_requirements.md
+
+Then have AI extract **concepts.md** listing all concepts.
 
 
-Creating DevDocs for existing projects is like archaeological excavation - you're uncovering layers of decisions, patterns, and evolution. When documenting the existing state we must also document the reason the codebase evolved in such way. Otherwise we risk AI simplifiying the architecture into already invalidated state due to edge cases or requirements. 
+### Step 2: Codebase Inspection
 
+Direct AI to analyze each source file and create **codebase_summary.md** documenting:
+- What each file/module does
+- How components interact
+- Data flow patterns
+- Architectural decisions evident in code
 
-We again start by data dumb and giving AI all external documentations to consume. 
-
-#### step 0 Creating Root Docs 
-
-
-Just like normal devdocs pattern we aim to create project_description.md,  philosophy.md, known_requirements.md files
-
-To do that we ask AI to inspect the code files as well.
-
-(If our codebase is evolved enough and in a at least partial working state )
+This creates a current-state snapshot before any changes. 
 
 
 
+### Step 3: Concept Mapping
 
-#### Step 2: Project to concepts
+We ask AI to generate **concept_mappings.md** linking each concept to its existing implementation:
 
-and then next step is to create concepts. 
+For each concept, document:
+- Which modules/services/classes implement it
+- Coverage percentage (fully realized, partial, missing)
+- Why the implementation chose this specific approach
+- What alternatives were likely considered and rejected
+- Edge cases the current design handles
 
-we again create  devdocs/concepts.md 
+This critical step captures the "why" behind existing architecture.
 
-but as an addition we ask AI to generate
 
-concept_mappings.md file where each concept is mapped to (if it exists in the codebase) codebase and relevant modules/services/classes
 
-with these explanations
-
- - how much relevant code covers the concept's realization
- - what vital things are missing
- - explain why relevant code is designed in the way it is but not in other way. 
- 
+#### step 4: creating project_state.md 
 
 and then we use this concept_mappings.md to create 
 
 project_state.md file where project state is explained and summed up 
 
 
-#### Step 3: Document the Gotchas
+### Step 4: Project State Assessment
+Aand then we use concept_mappings.md to synthesize findings into **project_state.md**:
+- Missing concept implementations
+- Integration points needing attention
+- Overall architecture maturity
+- Technical debt locations
+- Recommended next steps
 
-Every existing project has landmines:
+### Why This Works
 
-```
-"Search for:
-- TODO/FIXME/HACK comments
-- Try-catch blocks with specific errors
-- Workarounds (strings like 'workaround', 'temporary', 'fix')
-- Complex conditional logic
+Manual archaeology would take weeks. AI can traverse entire codebases in minutes, recognizing patterns humans might miss. The key is asking the right questions to extract not just what exists, but why it exists that way.
 
-Document these in devdocs/gotchas.md"
-```
+### Common Discoveries
 
-
-The Honest Documentation Principle
-
-DevDocs for existing projects must be honest:
-
-- Document what IS, not what SHOULD BE
-- Include the hacks and workarounds
-- Explain why bad patterns exist
-- Admit what you don't understand
-
-This honesty makes DevDocs trustworthy and actually useful, turning your existing project from a mysterious legacy system into a well-understood, AI-navigable codebase.
-
-
-
-
-
-
-
-
+The archaeology pattern often reveals:
+- Undocumented workarounds for specific edge cases
+- Implicit architectural decisions
+- Hidden dependencies between modules
+- Performance optimizations that look like complexity
+- Security measures that seem redundant
 

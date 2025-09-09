@@ -5,9 +5,9 @@
 Foundation documents are the bedrock of VDD. They capture your original vision in a structured format, establishing the core truths that guide every decision throughout the project. 
 
 These three documents form a hierarchy of intent:
-- **What** we're building (project_description.md)
-- **Why** we're building it (philosophy.md)  
-- **How** we must build it (known_requirements.md)
+- project_description.md
+- philosophy.md
+- known_requirements.md
 
 AI reads these first in every session. They become the lens through which AI interprets all subsequent project development.
 
