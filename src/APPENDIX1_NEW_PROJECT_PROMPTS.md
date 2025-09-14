@@ -1,6 +1,6 @@
 # VIBE CODING A NEW PROJECT 
 
-This appendix documetn contains ready-to-use prompts for IDEA -> PROTOTYPE.  These prompts contains established vibe coding patterns. Their detailed explanations can be found in related chapters.  
+This appendix document contains ready-to-use prompts for IDEA -> PROTOTYPE.  These prompts contains established vibe coding patterns. Their detailed explanations can be found in related chapters.  
 
 Take attention that phase 7-13 should be repeated many times as the modules are needed. 
 

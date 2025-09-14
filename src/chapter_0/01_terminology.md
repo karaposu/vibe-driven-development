@@ -53,7 +53,7 @@ Introducing VDD methodologies to projects that were originally developed without
 An emergent character or voice the AI adopts unintentionally, often due to biases in training data or weights. This can manifest as unexpected personality traits, communication styles, or decision-making patterns that weren't explicitly prompted.
 
 
-### Ghost Tokening
+### Ghost Tokens
 Phantom influence from hidden system prompts, latent weights, or unseen context that alters style or tone without user intent. These invisible influences can cause AI to behave differently than expected.
 
 

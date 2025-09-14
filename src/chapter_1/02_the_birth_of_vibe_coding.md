@@ -95,3 +95,35 @@ Today, vibe coding is:
 
 The future isn't AI replacing developers. It's developers wielding AI through vibe coding.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After two years of AI-assisted development, I documented the patterns that emerged: Vibe-Driven Development
+
+  This is an online book that introduces vibe coding patterns such as DevDocs, smoke tests, anchor pattern, and more. For a quick
+   overview, check out Appendix 1, where I provide ready-to-use prompts for starting a new AI-driven project.
+
+  You can find it here: https://karaposu.github.io/vibe-driven-development/
+
+  Since GPT-3.5's release, I've been deep in AI-assisted coding. I began noticing I was unconsciously following certain patterns.
+   Through many projects, I refined these patterns into a fairly reliable methodology.
+
+  When I explained these ideas to developer friends who knew about my AI coding work, they found the logic compelling. That
+  motivated me to document everything properly.
+
+  I don't claim this is definitive - I know many of you are probably following similar approaches, even if unnamed or
+  unpublished. I'd love to hear your thoughts, whether you think I'm onto something or completely off base.
+
