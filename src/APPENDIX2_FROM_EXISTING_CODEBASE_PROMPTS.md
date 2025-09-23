@@ -13,7 +13,7 @@ This appendix contains ready-to-use prompts for applying Vibe Coding patterns to
 ### Phase 1: Initial Survey
 
 ```
-Analyze this existing codebase and create initial DevDocs documentation:
+Analyze this existing codebase throughly (with md files, codefiles and config files). While analyzing make sure you read whole files and dont skip the core ones) And after that create initial DevDocs documentation:
 
 1. Scan the project structure:
    - Map directory organization
@@ -31,19 +31,19 @@ Analyze this existing codebase and create initial DevDocs documentation:
 ### Phase 2: Foundation Extraction
 
 ```
-Based on the codebase analysis, extract foundation documents:
+Based on the codebase analysis, please extract these foundations documents:
 
-1. Create devdocs/foundation/project_description.md
+1. Create devdocs/foundations/project_description.md
    - What the system actually does (not what docs claim)
    - Current user base and use cases
    - Actual problems being solved
 
-2. Create devdocs/foundation/philosophy.md
+2. Create devdocs/foundations/philosophy.md
    - Implicit design principles found in code
    - Coding patterns consistently used
    - Architectural decisions evident in structure
 
-3. Create devdocs/foundation/known_requirements.md
+3. Create devdocs/foundations/known_requirements.md
    - Requirements inferred from implementations
    - Constraints visible in code
    - Compliance/security measures present
@@ -59,9 +59,10 @@ Extract concepts from the existing implementation:
    - Note which are fully/partially/poorly implemented
    - Identify missing expected concepts
 
-2. For each concept, document in devdocs/concepts/concept_analysis/:
+2. For each concept, document in devdocs/concepts/concept_analysis.md:
    - Current implementation approach
-   - Why this specific approach was chosen
+   - Why this specific approach was chosen 
+   - known architecture decision records
    - Edge cases handled
    - Known limitations
    - Integration points

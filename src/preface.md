@@ -20,3 +20,6 @@ VDD isn't about achieving the perfect codebase. It's about building a continuous
 
 Enes/karaposu  
 10.09.2025
+
+
+Join us at: https://www.linkedin.com/groups/15074007/

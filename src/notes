@@ -7,3 +7,62 @@ Alistair Cockburn defined the Walking Skeleton practice as:
 
 a tiny implementation of the system that performs a small end-to-end function. It need not use the final architecture, but it should link together the main architectural components. The architecture and the functionality can then evolve in parallel.
 
+
+
+
+
+
+
+Decision Extraction Pattern" or "Policy Isolation Pattern" where:
+
+  1. Complex conditional logic is extracted into named predicate methods
+  2. Business rules are separated from execution logic
+  3. Decision points become extension points for future changes
+  4. Intent is made explicit through method naming
+
+
+
+
+
+  **Pattern**: Composition through delegation
+Favor composition for flexibility and testing
+
+ Simple defaults with optional complexity
+ **Philosophy**: Make simple things easy, complex  things possible
+
+
+ Service Abstraction
+**Decision**: Hide external service complexity
+
+
+Validate Early
+**Pattern**: Check requirements at initialization
+
+
+ Incremental Enhancement
+ Philosophy**: Evolution, not revolution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ read this all and tell me with the eye of a user who will read this article \
+  \
+  \
+  what critisim you have about the overall article \
+  \
+  what section transitions are too sharp and doesnt make sense\
+  \
+  what paragrapghs need to be rewritten because they are not clear
+  put this in
+  critic.md
