@@ -65,8 +65,10 @@ This book is for you if you've ever:
 - **Experienced Developer?** Chapters 0-4 provide a 15-minute introduction to essential concepts
 - **Ready to Implement?** Jump directly to the appendices for practical prompts
 
-## Join our discussions for more tips
+## Join our communities for more tips
 
-Linkedin: 
-Discord: 
+Linkedin VDD Community :  https://www.linkedin.com/groups/15074007/
+
+
+
 
