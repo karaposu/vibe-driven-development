@@ -10,7 +10,7 @@ The problem: AI starts implementing before truly understanding your vision, lead
 The pattern: Create living documentation that aligns AI's understanding with your vision BEFORE any code is written - documentation becomes the source that AI "compiles" into implementation
 
 How to implement:
-Created devdocs/ folder with foundation documents (project_description.md, philosophy.md, known_requirements.md). AI reads these before every session, maintaining consistent understanding across weeks of development.
+Before coding any feature, ask AI to document what it plans to build. Review this documentation, correct misunderstandings, then have AI implement based on the agreed documentation. This creates a feedback loop where you catch vision misalignment before it becomes code.
 
 Result: You can review AI's understanding through documentation, make corrections BEFORE implementation, ensuring aligned vision from the start
 
@@ -31,7 +31,7 @@ The problem: AI passes unit tests but completely misunderstands the actual requi
 The pattern: Write intentionally verbose tests with excessive print statements that explain what's being tested and why - treat tests as teaching tools for AI
 
 How to implement:
-Instead of assertEqual(result, 5), write tests that print "Testing that user balance updates correctly after purchase. Starting balance: 10, Purchase amount: 5, Expected: 5, Got: {result}". AI finally understood the business logic, not just the assertion.
+Write tests that explain their purpose verbosely. Include context about what's being tested, why it matters, and what the expected behavior represents. This verbose output helps you see how AI understands your requirements and where it gets confused.
 
 Result: Conceptual misunderstandings become visible through verbose test outputs, allowing you to correct AI's understanding before it writes wrong code
 
@@ -52,7 +52,7 @@ The problem: Detailed upfront architecture becomes obsolete as AI reveals better
 The pattern: Start with intentionally vague, high-level architecture that crystallizes through iterative development - let patterns emerge rather than forcing them
 
 How to implement:
-Started with "we need some kind of data processing pipeline" instead of specific class diagrams. Through iterations with AI, discovered a clean event-driven architecture that no human architect would have designed upfront.
+Define high-level goals without prescribing implementation details. Let AI propose solutions, iterate on them, and allow the architecture to crystallize through actual development rather than forcing predetermined patterns.
 
 Result: Architecture evolves naturally with implementation, revealing patterns that rigid upfront design would have missed
 
@@ -73,7 +73,7 @@ The problem: Complex projects cause AI to lose track of core requirements in the
 The pattern: Create anchor documents that explicitly state what must never change, then reference them repeatedly during development sessions
 
 How to implement:
-Created anchors.md listing 5 non-negotiable principles. Every major decision starts with "Given our anchors...". Prevented AI from optimizing away critical security requirements in favor of "simpler" solutions.
+Document your non-negotiable requirements and core principles. Reference these explicitly when discussing features with AI. Start prompts with "Given our core requirements..." to keep AI aligned with what truly matters.
 
 Result: Core requirements stay protected throughout development, as AI constantly references these anchors before making decisions
 
@@ -94,7 +94,7 @@ The problem: AI struggles with complex business logic buried in elegant but dens
 The pattern: Structure code to offload complexity to AI-friendly patterns - verbose variable names, excessive comments, explicit intermediate steps
 
 How to implement:
-Refactored a clever one-liner regex into 10 lines with descriptive variable names for each step. AI could now modify the logic correctly instead of breaking it. Yes, it's less "elegant" - but AI can actually maintain it.
+Structure your code with AI maintenance in mind: use descriptive variable names, break complex operations into steps, add explanatory comments. Trade "clever" code for explicit code that AI can reliably understand and modify.
 
 Result: AI can now understand and correctly modify your code because complexity is explicit rather than hidden in clever abstractions
 

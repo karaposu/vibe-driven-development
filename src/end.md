@@ -3,4 +3,4 @@ Writing this book was a journey of discovery. I used AI extensively to process a
 Perhaps one of AI's greatest gifts to humanity will be helping us understand ourselves better. Whether AI ultimately elevates or challenges us, there's no denying the magic of building with it.
 
 
-Join us at: https://www.linkedin.com/groups/15074007/
+Join us at: [Linkedin VDD Community](https://www.linkedin.com/groups/15074007/)

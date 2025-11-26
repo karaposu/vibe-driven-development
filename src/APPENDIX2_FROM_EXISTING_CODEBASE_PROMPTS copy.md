@@ -10,28 +10,105 @@ This appendix contains ready-to-use prompts for applying Vibe Coding patterns to
 
 ## APPLY THE ARCHAEOLOGY PATTERN
 
-### Phase 1: Initial Survey
+### Phase 1: Filling the Context and Summarizing
+
+
+"""
+
+This is an ongoing project. It is currently partially working but on heavy development. 
+I would like you read all the files and tell me about this project in non technical terms
+
+- Make sure you focus on code files and not existing documentation
+- Make sure you read code files fully 
+
+
+And create devdocs/archeology/small_summary.md
+
+"""
+
+### Phase 2: Enhancing Generic Technical Understanding 
+
+
+"""
+Now understand how this codebase designed in terms of 
+
+- data flow paths
+- main abstractions 
+- top level desing patterns 
+
+But talk about these in high level. As if you are introducing the architecture / project to a new engineer. 
+
+put this in intro2codebase.md
+
+"""
+
+### Phase 3: Deeper look in CodeBase  
+
+
+"""
+Identify every internal interface and submodule-level interaction defined within the codebase (excluding external packages). For each interface, follow its execution path end-to-end: what calls it, what it triggers, how data or state moves through the layers, and what outcomes it produces. 
+
+Document these flows at a high level, explaining what each interaction corresponds to, what it affects, and why it behaves that way. 
+
+Create one file per interaction trace under devdocs/archeology/traces/ (e.g., trace_1.md, trace_2.md).
+Base all analysis strictly on actual code behavior rather than names or assumptions.
+"""
+
+
+
+### Phase 4: Existing Concept Discovery
+
+The codebase may embed architectural intentions, overlooked assumptions, edge-case handling, and forward-looking considerations for scalability or security that were never documented outside the code itself. This is why concept discovery should be done carefully and throughly. 
 
 ```
-Analyze this existing codebase throughly (with md files, codefiles and config files). While analyzing make sure you read whole files and dont skip the core ones) And after that create initial DevDocs documentation:
 
-1. Scan the project structure:
-   - Map directory organization
-   - Identify tech stack from package files
-   - Locate existing documentation
-   - Find configuration files
-   
-2. Create devdocs/archaeology/initial_survey.md documenting:
-   - Project size and scope
-   - Technologies discovered
-   - Documentation gaps
-   - First impressions
-```
+Recognize that the codebase may contain architectural intentions, hidden assumptions, edge-case handling, or future-oriented design considerations that exist only in the code and are not explicitly documented. Surface these implicit concepts clearly among with others explain their possible purpose, rationale, and potential impact on scalability, security, and maintainability. 
 
-### Phase 2: Foundation Extraction
+
+Extract concepts from the existing implementation:
+
+ Create devdocs/archeology/concepts/discovered_concepts.md
+    
+   - List all technical concepts found in code
+   - Note which are fully/partially/poorly implemented
+   - Identify missing expected concepts
+
 
 ```
-Based on the codebase analysis, please extract these foundations documents:
+
+### Phase 5: Codebase inferred Foundation Extraction
+
+```
+Now based on the codebase analysis, please extract these foundations documents:
+
+1. Create devdocs/archeology/foundations/project_description.md
+   - What the system actually does (not what docs claim)
+   - Current user base and use cases
+   - Actual problems being solved
+
+2. Create devdocs/archeology/foundations/philosophy.md
+   - Implicit design principles found in code
+   - Coding patterns consistently used
+   - Architectural decisions evident in structure
+
+3. Create devdocs/archeology/foundations/known_requirements.md
+   - Requirements inferred from implementations
+   - Constraints visible in code
+   - Compliance/security measures present
+```
+
+
+
+## STANDARD ANALYSIS 
+
+### Phase 6: Data Dumb and Foundation Extraction
+
+This is where we start swaying away from the current implementation itself and focus on project itself.
+In this stage make sure provide all non code documentations regarding project idea. 
+
+
+```
+Based on the given documentations (not the prior codebase knowledge), please extract these foundations documents:
 
 1. Create devdocs/foundations/project_description.md
    - What the system actually does (not what docs claim)
@@ -49,24 +126,9 @@ Based on the codebase analysis, please extract these foundations documents:
    - Compliance/security measures present
 ```
 
-### Phase 3: Concept Discovery
 
-```
-Extract concepts from the existing implementation:
 
-1. Create devdocs/concepts/discovered_concepts.md
-   - List all technical concepts found in code
-   - Note which are fully/partially/poorly implemented
-   - Identify missing expected concepts
 
-2. For each concept, document in devdocs/concepts/concept_analysis.md:
-   - Current implementation approach
-   - Why this specific approach was chosen 
-   - known architecture decision records
-   - Edge cases handled
-   - Known limitations
-   - Integration points
-```
 
 ### Phase 4: Architecture Archaeology
 

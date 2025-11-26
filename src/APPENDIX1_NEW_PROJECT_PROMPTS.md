@@ -173,12 +173,19 @@ With the project information, architecture overview, and module structure define
   4. Can be implemented independently without requiring other modules to be fully defined first
 
 
-  And then create [module_name]_module_implementation_proposal.md which explain in order 
+  And then create devdocs/proposal/[module_name]_module_implementation_proposal.md which explain in order 
   
   1.  what components this modules would have?
   2.  what the interface/endpoints this module would show
   3.  how it would be used with pseudo code
   4.  how it will be used by other/core modules (in a high level without definitive definition)
+  5.  make sure the interface is not mixing concerns and modular 
+  6.  if selected module is peripheral - it should knows nothing about the business domain, just how to persist and retrieve objects. This makes it:
+         - More reusable
+         - Easier to test (mock repositories)
+         - Clear separation of concerns
+         - No mixed responsibilities
+
 ```
 
 
@@ -198,13 +205,13 @@ please provide:
 
 
 
-### Phase 9: Smoke test
+### Phase 9: Probe test
 
-Details are explained in chapter_7/smoke_tests_pattern.md
+Details are explained in chapter_7/probe_tests_pattern.md
 
 ```
-Let's design comprehensive smoke tests to validate our implementation. 
-Please create smoke_tests folder if it doesnt exists. and Please create a test plan with the following structure:
+Let's design comprehensive probe tests to validate our implementation. 
+Please create probe_tests folder if it doesnt exists. and Please create a test plan with the following structure:
 
 1. 5 test files, each containing 5 focused test cases
 2. Avoid mocking and use real componenets with real calls with real data. 

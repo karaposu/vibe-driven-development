@@ -57,6 +57,8 @@ An emergent character or voice the AI adopts unintentionally, often due to biase
 Phantom influence from hidden system prompts, latent weights, or unseen context that alters style or tone without user intent. These invisible influences can cause AI to behave differently than expected.
 
 
+### Context Pollution
+
 ### Lo-Fi Coding (Low Fidelity)
 Vague, exploratory collaboration where AI has maximum creative freedom. 
 
