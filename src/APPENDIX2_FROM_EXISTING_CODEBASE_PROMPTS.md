@@ -1,4 +1,4 @@
-# VIBE CODING AN EXISTING PROJECT
+# APPLYING VIBE CODING TO AN EXISTING CODEBASE
 
 This appendix contains ready-to-use prompts for applying Vibe Coding patterns to existing codebases. The archaeology pattern (Chapter 6.7) helps extract DevDocs from mature projects without losing architectural wisdom.
 

@@ -48,8 +48,8 @@ This book provides both philosophical foundation and practical implementation:
 ## Quick Start
 
 If you prefer learning by doing:
-1. Jump to [Appendix 1: New Project Prompts](content/APPENDIX1_NEW_PROJECT_PROMPTS.md) for step-by-step implementation
-2. Use [Appendix 2: From Existing Codebase Prompts](content/APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md) to apply VDD to existing projects
+1. Jump to [Appendix 1: New Project Prompts](APPENDIX1_NEW_PROJECT_PROMPTS.md) for step-by-step implementation
+2. Use [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md) to apply VDD to existing projects
 
 ## Who Should Read This
 
@@ -61,7 +61,7 @@ This book is for you if you've ever:
 
 ## How to Navigate
 
-- **New to VDD?** Start with the [Preface](content/preface.md) and follow the chapters sequentially
+- **New to VDD?** Start with the [Preface](preface.md) and follow the chapters sequentially
 - **Experienced Developer?** Chapters 0-4 provide a 15-minute introduction to essential concepts
 - **Ready to Implement?** Jump directly to the appendices for practical prompts
 

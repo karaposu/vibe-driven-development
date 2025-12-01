@@ -6,6 +6,29 @@ You've built it, tested it, refactored it. Now comes the final phase: making it 
 
 ## Creating the Documentation Corpus
 
+### Building Documentation with mdbook
+
+When using mdbook for documentation:
+
+```bash
+# For development - auto-rebuilds on changes
+mdbook serve
+# Serves at http://localhost:3000 with live-reload
+
+# For production - generates static files
+mdbook build
+# Creates static files in book/ directory for deployment
+```
+
+**Development workflow:**
+- Use `mdbook serve` during writing/editing
+- Changes auto-rebuild and live-reload in browser
+- No need to run `mdbook build` after each change
+
+**Production workflow:**
+- Run `mdbook build` only for final deployment
+- Deploy the generated `book/` directory to your hosting service
+
 ### Transitioning from DevDocs to User Docs
 
 DevDocs served development. Now create user-facing documentation:
