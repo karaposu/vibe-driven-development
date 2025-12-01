@@ -22,7 +22,7 @@ I would like you read all the files and tell me about this project in non techni
 - Make sure you read code files fully 
 
 
-And create devdocs/archeology/small_summary.md
+And create devdocs/archaeology/small_summary.md
 
 """
 
@@ -38,7 +38,7 @@ Now understand how this codebase designed in terms of
 
 But talk about these in high level. As if you are introducing the architecture / project to a new engineer. 
 
-put this in intro2codebase.md
+put this in devdocs/archaeology/intro2codebase.md
 
 """
 
@@ -48,50 +48,93 @@ put this in intro2codebase.md
 """
 Identify every internal interface and submodule-level interaction defined within the codebase (excluding external packages). For each interface, follow its execution path end-to-end: what calls it, what it triggers, how data or state moves through the layers, and what outcomes it produces. 
 
-Document these flows at a high level, explaining what each interaction corresponds to, what it affects, and why it behaves that way. 
+Document these flows at a high level, explaining what each interaction corresponds to, what it affects, and why it behaves that way.  
 
-Create one file per interaction trace under devdocs/archeology/traces/ (e.g., trace_1.md, trace_2.md).
+
+Create one file per interaction trace under devdocs/archaeology/traces/ (e.g., trace_1.md, trace_2.md).
 Base all analysis strictly on actual code behavior rather than names or assumptions.
+
+
+Each trace should have the following sections
+
+Entry Point
+Execution Path
+Resource Management
+Error Path
+Performance Characteristics
+Observable Effects
+Why This Design 
+
+What feels incomplete
+What feels vulnerable
+What feels bad design
+
+
+
 """
 
 
+### Phase 4: Using Fresh Trace analysis to Identify "Things"
 
-### Phase 4: Existing Concept Discovery
 
-The codebase may embed architectural intentions, overlooked assumptions, edge-case handling, and forward-looking considerations for scalability or security that were never documented outside the code itself. This is why concept discovery should be done carefully and throughly. 
+"""
 
-```
+Now look at all traces and what are the 5 things that would improve the codebase a lot?
+
+Put these in devdocs/archaeology/5_things_or_not.md
+
+And make sure after each of them think for a possible reason this thing is not implemented/fixed at the current code
+(the reason is there might be some undocumented decisions and these 5 thigns might refer to them  )
+
+
+"""
+
+### Phase 5:  Concept Inventory
+
+
+"""
+
+Looking at the codebase, 
+
+Create 
+
+1. devdocs/archaeology/concepts/technical_concepts_list.md  
+2. devdocs/archaeology/concepts/design_concepts_list.md 
+3. devdocs/archaeology/concepts/busines_lvl_concepts_list.md 
+
+
+where each concept has high level explanation (max 3 sentence) as well as current implementation status. And make sure the listing starts from most main ones and branches as needed. 
 
 Recognize that the codebase may contain architectural intentions, hidden assumptions, edge-case handling, or future-oriented design considerations that exist only in the code and are not explicitly documented. Surface these implicit concepts clearly among with others explain their possible purpose, rationale, and potential impact on scalability, security, and maintainability. 
 
 
-Extract concepts from the existing implementation:
+and then Identify missing but required/expected concepts and thenput them in 
 
- Create devdocs/archeology/concepts/discovered_concepts.md
-    
-   - List all technical concepts found in code
-   - Note which are fully/partially/poorly implemented
-   - Identify missing expected concepts
+devdocs/archaeology/concepts/missing_concepts_list.md 
 
 
-```
+
+
+"""
+
+
 
 ### Phase 5: Codebase inferred Foundation Extraction
 
 ```
-Now based on the codebase analysis, please extract these foundations documents:
+Now based on solely the codebase analysis and devdocs/archaeology documents, please extract these foundations documents:
 
-1. Create devdocs/archeology/foundations/project_description.md
+1. Create devdocs/archaeology/foundations/project_description.md
    - What the system actually does (not what docs claim)
    - Current user base and use cases
    - Actual problems being solved
 
-2. Create devdocs/archeology/foundations/philosophy.md
+2. Create devdocs/archaeaology/foundations/philosophy.md
    - Implicit design principles found in code
    - Coding patterns consistently used
    - Architectural decisions evident in structure
 
-3. Create devdocs/archeology/foundations/known_requirements.md
+3. Create devdocs/archaeology/foundations/known_requirements.md
    - Requirements inferred from implementations
    - Constraints visible in code
    - Compliance/security measures present

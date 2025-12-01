@@ -228,6 +228,11 @@ Please create probe_tests folder if it doesnt exists. and Please create a test p
 6. these tests shouldnt use any testing frameworks. Make the outputs verbose enough so you can see what exactly does not work. 
 7. Start with initialization test file. 
 8. Each test file's top comment should include how to run it manually. 
+
+
+(Write the files in such way that each subtest inside is seperate functin and in the end there is one funciton to orchestrate runnning all of them)
+
+(Tests should test what actually exists, do not create fallbacks etc)
 ```
 
 
