@@ -34,15 +34,15 @@
   - [Exploration Docs](chapter_7_devdocs/05_explorations_docs.md)
   - [Module Docs](chapter_7_devdocs/06_module_docs.md)
   - [Other Docs](chapter_7_devdocs/06_other_docs.md)
-  - [Archaeology Pattern](chapter_7_devdocs/07_archaeology_pattern.md)
-- [Smoke Tests Pattern](chapter_8_smoke_tests/smoke_tests_pattern.md)
+- [Probe Tests Pattern](chapter_8_probe_tests/probe_tests_fixed.md)
 - [Fuzzy Architecture](chapter_9_fuzzy/fuzzy_architecture.md)
 - [The Anchor Pattern](chapter_10_anchor/the_anchor_pattern.md)
-- [Offload Pattern](chapter_11_offload/offload_pattern.md)
+- [Archaeology Pattern](chapter_11_archaeology_pattern/archaeology_pattern.md)
+- [Offload Pattern](chapter_12_offload/offload_pattern.md)
 
 # Part IV: The Vibe Coding Method
 
-- [Deployment and Documentation](chapter_12_deployment/deployment_and_documentation.md)
+- [Deployment and Documentation](chapter_13_deployment/deployment_and_documentation.md)
 
 # Appendices
 
