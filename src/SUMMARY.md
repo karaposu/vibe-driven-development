@@ -30,7 +30,7 @@
 - [DevDocs Pattern](chapter_7_devdocs/01_devdocs_pattern.md)
   - [Foundation Docs](chapter_7_devdocs/02_foundation_docs.md)
   - [Concept Docs](chapter_7_devdocs/03_concept_docs.md)
-  - [Enhancement Docs](chapter_7_devdocs/04_enhancements_docs.md)
+  - [Feature Docs](chapter_7_devdocs/04_feature_docs.md)
   - [Exploration Docs](chapter_7_devdocs/05_explorations_docs.md)
   - [Module Docs](chapter_7_devdocs/06_module_docs.md)
   - [Other Docs](chapter_7_devdocs/06_other_docs.md)
@@ -48,6 +48,7 @@
 
 - [Appendix 1: New Project Prompts](APPENDIX1_NEW_PROJECT_PROMPTS.md)
 - [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md)
+- [Appendix 4: Adding New Features](APPENDIX4_ADDING_NEW_FEATURE.md)
 
 ---
 
