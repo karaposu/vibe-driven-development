@@ -40,14 +40,11 @@
 - [Archaeology Pattern](chapter_11_archaeology_pattern/archaeology_pattern.md)
 - [Offload Pattern](chapter_12_offload/offload_pattern.md)
 
-# Part IV: The Vibe Coding Method
-
-- [Deployment and Documentation](chapter_13_deployment/deployment_and_documentation.md)
-
 # Appendices
 
 - [Appendix 1: New Project Prompts](APPENDIX1_NEW_PROJECT_PROMPTS.md)
 - [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md)
+- [Appendix 3: Refactoring with VDD](APPENDIX3_REFACTORING.md)
 - [Appendix 4: Adding New Features](APPENDIX4_ADDING_NEW_FEATURE.md)
 
 ---

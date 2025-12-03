@@ -63,7 +63,7 @@ I want you to check and  Identify compatibility ISSUES, RISKS and CONFLICTS with
 ### Step-4: Compatibility Analysis
 
 ```
-Analyze how [FEATURE NAME] will interact with the existing codebase:
+Analyze how this feature will interact with the existing codebase:
 
 1. Read all relevant module interfaces and implementations
 2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/compatibility_check.md
@@ -85,7 +85,7 @@ Suggest mitigation strategies for Medium/High risks.
 ## PHASE 2: BLUEPRINT PLANNING (Optional)
 
 ```
-Expand the implementation plan for [FEATURE NAME]:
+Expand the implementation plan for this feature:
 
 Update devdocs/features/planned/feat_X_[FEATURE_NAME]/implementation_plan.md
 
