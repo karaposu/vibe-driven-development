@@ -1,6 +1,6 @@
 # The Archaeology Pattern
 
-Diggin things down is a completely different paradigm compared to building things. This pattern specializes on how we can use AI to understand the codebase. It might sound simple at first but reality is a bit different. 
+Diggin things down is a completely different paradigm compared to building things. This pattern specializes on how we can use AI to understand the codebase. It might sound simple at first but reality is a bit different as many experienced. 
  
 The archaeology pattern often reveals:
 - Undocumented workarounds for specific edge cases
@@ -207,9 +207,9 @@ For each opportunity document:
 Establish what currently works:
 
 ```
-Create comprehensive smoke tests to validate implementation.
+Create comprehensive probe tests to validate implementation.
 
-Create: smoke_tests/check_what_is_working/
+Create: probe_tests/check_what_is_working/
 
 Requirements:
 - 5 test files with 5 test cases each
@@ -231,24 +231,24 @@ Create a phased execution plan:
 ```
 Create devdocs/evolution/implementation_roadmap.md:
 
-Phase A - Foundation (Week 1-2):
+Phase A - Foundation :
 - Critical cleanup
 - Essential refactoring
 - Fix broken core functionality
 - Establish CI/CD
 
-Phase B - Core Refactoring (Week 3-4):
+Phase B - Core Refactoring :
 - Highest-ROI improvements
 - Add abstraction layers
 - Decouple modules
 - Run smoke tests after each change
 
-Phase C - Gap Filling (Week 5-8):
+Phase C - Gap Filling :
 - Implement missing concepts
 - Module-by-module improvements
 - Add identified features
 
-Phase D - Integration (Week 9-10):
+Phase D - Integration :
 - Ensure modules work together
 - Performance optimization
 - Documentation updates

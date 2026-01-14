@@ -23,7 +23,7 @@ Having AI rephrase the feature back ensures mutual understanding before proceedi
 Once you read back what AI generated regarding the feature you asked, make sure to fix incorrect things.
 
 
-###  Step-2: Generating Small Description and Plan
+###  Step-2: Generating Description of the Feature
 
 ```
 Okay now you understand this feature in general, 
@@ -37,95 +37,57 @@ Create the initial feature documentation structure in devdocs folder:
    - Scope boundaries (what this feature will NOT do)
    - Priority level (critical/high/medium/low)
 
-2. Create a devdocs/features/planned/feat_X_[FEATURE_NAME]/implementation_plan.md with:
+2. Create a devdocs/features/planned/feat_X_[FEATURE_NAME]/step_by_step_plan.md with:
    2.1. High level plan summary in bullet points
    2.2. Full implementation plan 
 
   ( Keep it lightweight at this stage - we'll add detail as we validate the feature.)
 ```
 
-
-###  Step-3: Compatibility check of the Plan (Optional)
+###  Step-3: Generating Step By Step Plan
 
 ```
-Now based on the feature implementation plan (reread it, I made changes)
+Okay now I want you to ultrathink and reread all codefiles and then generate  
 
-I want you to check and  Identify compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan caueses:
+Create a devdocs/features/planned/feat_X_[FEATURE_NAME]/step_by_step_plan.md 
+
+it should start with  High level plan summary in bullet points and then explain the Full implementation plan 
+```
+
+
+###  Step-4: Generating the critic.md 
+
+```
+Now based on the feature implementation plan (reread it ully)
+
+I want you ultrathink and  and Identify ERRORs, compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan caueses:
 - Existing features that might break
 - Performance implications
 - API contract changes
 - Database schema impacts
 - Security considerations
-```
-   
-  
 
-### Step-4: Compatibility Analysis
-
-```
 Analyze how this feature will interact with the existing codebase:
 
 1. Read all relevant module interfaces and implementations
-2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/compatibility_check.md
+2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/critic.md
+
 
 Document:
-- Which existing features might be affected
-- Potential conflicts or breaking changes
-- Performance implications (latency, memory, storage)
+- Potential conflicts or breaking changes or errors. 
 - API contract changes required
+- Which existing features might be affected
 - Database schema impacts
 - Security considerations
 - Required refactoring before implementation
+- Performance implications (latency, memory, storage)
 
 Rate each risk as: Low/Medium/High
 Suggest mitigation strategies for Medium/High risks.
-```
-
-
-## PHASE 2: BLUEPRINT PLANNING (Optional)
 
 ```
-Expand the implementation plan for this feature:
 
-Update devdocs/features/planned/feat_X_[FEATURE_NAME]/implementation_plan.md
-
-Structure:
-1. High-level plan summary (5-10 bullet points)
-
-2. Detailed implementation steps:
-   Phase A: Foundation
-   - [ ] Step 1: [Specific task]
-   - [ ] Step 2: [Specific task]
-
-   Phase B: Core Implementation
-   - [ ] Step 3: [Specific task]
-   - [ ] Step 4: [Specific task]
-
-   Phase C: Integration
-   - [ ] Step 5: [Specific task]
-   - [ ] Step 6: [Specific task]
-
-3. For each phase specify:
-   - Files to be created/modified
-   - New components/modules needed
-   - Integration points
-   - Testing approach
-
-4. Architecture decisions:
-   - Design patterns to use
-   - Data flow design
-   - Error handling strategy
-   - Performance optimization approach
-
-5. Code organization:
-   - Where new code will live
-   - Module boundaries
-   - Interface definitions
-```
-
-
-
-## PHASE 3: Execution Loop
+## PHASE 2: Execution Loop
 
 
 ### Step-5: Executing 
@@ -133,12 +95,12 @@ Structure:
 This is where implementation is executed by AI. 
 
 ```
-Now using all files we created regarding this feature, please start the execution. Be loyal to the files 
+Now using step by step implementation we created regarding this feature, reread it fully and then please start the execution. Be loyal to the plan. 
 ```
 
 ### Step-6: Test Scenario Planning
 
-Once execution is finished we would like to test it. 
+Once execution is finished we would like to test it of course
 
 
 ```
@@ -188,14 +150,10 @@ Document:
    - Response time targets
    - Throughput requirements
    - Resource usage limits
-```
+
+and if these tests exists, run them, if not add them to the test suite, or probe tests and then run them. 
 
 
-### Step-7: Probe Test Creation
-
-```
-Use the created test scenario documentaion and  Let's design comprehensive probe tests to validate our implementation of this feature
- 
 Please create probe_tests folder if it doesnt exists.
 
 
@@ -209,7 +167,7 @@ Use feature name as a folder and inside create:
       -  Test how feature related components work together
       -  Verify solidly defined requirements are met or not
 
-       
+  
 5. For each test file, provide:
   - Clear description of what aspect it tests
   - Why this testing area is critical
@@ -225,6 +183,7 @@ Use feature name as a folder and inside create:
 
 
 ```
+
 
 ### Step-8: Stable INtermediate Form (Anchor check)
 

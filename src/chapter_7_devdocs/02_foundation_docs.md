@@ -6,8 +6,6 @@ Foundation documents are the bedrock of VDD. They capture your original vision i
 
 
 
-
-
 These three documents form a hierarchy of intent:
 
 

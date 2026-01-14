@@ -79,6 +79,27 @@ Probe tests should follow a progression from simple to complex. Begin with isola
 
 
 
+Testing Coupled Components                                                                                                                       
+                                                                                                                                                   
+  Not all components can be tested in isolation. Some behaviors only emerge when components work together - you can't meaningfully test an LLM     
+  integration without the storage it depends on.                                                                                                   
+                                                                                                                                                   
+  In these cases, we take a different approach:                                                                                                    
+                                                                                                                                                   
+  1. Bootstrap a working state across coupled components                                                                                           
+  2. Probe and observe how they behave together                                                                                                    
+  3. Maintain this working state as an anchor while improving                                                                                      
+                                                                                                                                                   
+  This is iterative: observe, understand, improve - without breaking what works. The working state becomes both your test baseline and your        
+  learning tool.                                                                                                                                   
+                                                                                                                                                   
+  This is where human judgment becomes essential. Knowing what "working" looks like, deciding what to probe next, recognizing when behavior is     
+  correct versus just not crashing - these require understanding that goes beyond pass/fail.     
+
+
+
+
+
 It is common to have first file as 
 
 test_01_initialization.py
@@ -97,27 +118,12 @@ test_02_connectivity.py
 
 
 
-### 3. Testing Coupled Components
-
-Not all components can be tested in isolation. Some behaviors only emerge when components work together - you can't meaningfully test an LLM integration without the storage it depends on.
-
-In these cases, we take a different approach:
-
-1. **Bootstrap a working state** across coupled components
-2. **Probe and observe** how they behave together
-3. **Maintain this working state** as an anchor while improving
-
-This is iterative: observe, understand, improve - without breaking what works. The working state becomes both your test baseline and your learning tool.
-
-This is where human judgment becomes essential. Knowing what "working" looks like, deciding what to probe next, recognizing when behavior is correct versus just not crashing - these require understanding that goes beyond pass/fail.     
-
-
-### 4. Clear Intent
+### 3. Clear Intent
 
 Probe tests should read like documentation so we can intervene when needed. Test names should be clear and readable, describing exactly what behavior is being verified 
 
 
-### 5. Full implementation Coverage 
+### 4. Full implementation Coverage 
 
 
 The cost of comprehensive Probe tests is negligible compared to the cost of incorrect implementation. Generate as many tests as necessary to ensure confidence.
@@ -135,7 +141,7 @@ Probe_tests/
 └── test_05_integration.py
 ``` 
 
-### 6. No mocking and Providing Real Data 
+### 5. No mocking and Providing Real Data 
 
 And you will see that AI-generated tests often default to minimal output or use mocks that obscure real behavior. Which if not checked might have result in Phantom success.  
 
@@ -145,7 +151,7 @@ It is your job to provide realistic data for Probe tests.When developing complex
 
 
 
-### 7. Always Rerun your Probe tests by yourself. 
+### 6. Always Rerun your Probe tests by yourself. 
  
 Never rely solely on AI's test execution or interpretation. A critical pitfall occurs when AI reports overall success despite partial failures - even one failing test invalidates the entire suite.
 

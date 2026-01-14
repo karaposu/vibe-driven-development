@@ -28,6 +28,9 @@ When you make AI's job easier, you get:
   - Enforce progressive development and break combined complexities. 
 
 
+## Using explicit variable names
+
+Like old saying "words have power". From my experience using explicit and long variable names help with offloading a lot.In LLMs Once something is explicit the attension mechanism can more correctly refer to it. And cross-session stability increases as well due to summary mechanism putting extra weight on variable names. 
 
 
 

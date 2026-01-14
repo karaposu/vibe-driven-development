@@ -47,7 +47,7 @@ First, analyze the project requirements and create a clear understanding of what
 Create the following foundation documents:
 
 1. devdocs/foundations/project_description.md
-
+   
    What are we building?
    What problem are we solving
    What are the various scopes of this project?
@@ -210,8 +210,74 @@ please provide:
 Details are explained in chapter_7/probe_tests_pattern.md
 
 ```
-Let's design comprehensive probe tests to validate our implementation. 
-Please create probe_tests folder if it doesnt exists. and Please create a test plan with the following structure:
+Let's design comprehensive probe tests to validate our implementation.
+Please create probe_tests folder if it doesn't exist.
+And Please create a test plan with the following structure:
+
+## Test Structure
+1. At least 5 test files, each containing 5 focused test cases
+2. File naming convention: test_01_[test_focus_area].py, test_02_[next_focus_area].py, etc.
+3. Each test file's top comment should include how to run it manually.
+
+
+### No Mocking - Real Calls Only
+4. Use real components with real API calls and real data, if mocking is absolutely needed then be verbose about this.  
+5. No mocking, no faking, no stubbing
+
+### Understand Return Types Before Testing
+6. BEFORE writing any test, re-read the actual function/method signature and return type
+7. Check what fields indicate success vs failure (e.g., result.success, result.data, result.error)
+8. Tests must validate the ACTUAL return structure, not assume exception-based error handling 
+
+
+### Validate Real Success, Not Just "No Exception"
+9. A test passes ONLY if:  No exception was raised, AND The result indicates success with MEANINGFUL data,   
+10. Print the actual result data (trim if too long) to verify real MEANINGFUL data is indeed there..
+11. Show sample data to prove it's not empty/fake
+
+12. Async and concurrency should be seperately tested in isolation. 
+13. Ensure all async operations run within the proper context
+14. Test both sequential and concurrent operations within the same context
+
+
+  ## Test Coverage
+  For each test file, cover:
+  - Individual functions/methods in isolation
+  - How components work together
+  - Verify solidly defined requirements are met or not
+
+  ## Output Requirements
+  - NO testing frameworks (no pytest, unittest, etc.)
+  - Verbose output showing exactly what works and what doesn't
+  - Print actual return values, data types, and sample data
+  - Clear distinction between:
+    - ✅ Real success (got actual data)
+    - ❌ Exception raised
+    - ❌ Result returned but success=False or data=None/empty
+  - Include timing information where relevant
+
+  ## Test File Structure
+  Each test file should:
+  1. Have each subtest as a separate function
+  2. Have one orchestrator function at the end to run all subtests
+  3. Show a summary at the end with pass/fail counts
+
+  ## Test Sequence
+  1. Start with initialization/connection test file
+  2. Progress from simple to complex operations
+  3. End with concurrency/stress tests
+
+  ## Before Writing Each Test
+  Ask yourself:
+  1. What does this function actually return? (Read the source)
+  2. How does it indicate failure? (Exception vs result.success=False vs empty data)
+  3. What constitutes REAL success? (What data should be present?)
+  4. Does it need async context? (Check if it uses async with)
+
+```
+
+
+
 
 1. 5 test files, each containing 5 focused test cases
 2. Avoid mocking and use real componenets with real calls with real data. 
@@ -225,15 +291,15 @@ Please create probe_tests folder if it doesnt exists. and Please create a test p
   - Clear description of what aspect it tests
   - Why this testing area is critical
   - Brief outline of each test case within the file
-6. these tests shouldnt use any testing frameworks. Make the outputs verbose enough so you can see what exactly does not work. 
-7. Start with initialization test file. 
-8. Each test file's top comment should include how to run it manually. 
-
+6. these tests shouldnt use any testing frameworks. Make the outputs verbose enough so you can see what exactly does not work.  
+7.  Make sure tests are made in a way that they output related result data in a readable format to prevent false positives. 
+8. Start with initialization test file. 
+9. Each test file's top comment should include how to run it manually. 
 
 (Write the files in such way that each subtest inside is seperate functin and in the end there is one funciton to orchestrate runnning all of them)
 
 (Tests should test what actually exists, do not create fallbacks etc)
-```
+
 
 
 ### Phase 10: Running the smoke test and fix the errors
@@ -242,6 +308,8 @@ It is important to run smoke tests by ourself. First we will let AI do this and 
 
 ```
 Lets run each smoke test one by one and fix all errors. If you find errors and cant fix them after 3 changes break down the smoke test into a smaller more isolated forms with more verbose outputs ( in smoke tests files) And rerun them. 
+
+if a test is failing lets isolate it in another test file under probe_tests/isolation with relevant name and verbose output and run it again to see what is going on so we can fix according to new understanding we have.
 
 ```
 

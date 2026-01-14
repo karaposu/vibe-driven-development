@@ -2,7 +2,7 @@
 
 ## What Is the Anchor Pattern?
 
-In scientific literature this is known as "Stable Intermediate Forms" which is a methodology to help erisking the process of change
+In scientific literature this is known as "Stable Intermediate Forms" which is a methodology to help de-risking the process of change (also known as strangler fig pattern)
 
 The Anchor Pattern is about ensuring that new development doesn't break existing functionality. As AI works on new features, it tends to forget earlier requirements due to limited context. Anchoring actions force AI to regularly verify that old logic still works.
 
@@ -32,16 +32,17 @@ Each new feature works, but previous features break silently.
 ## The Core Anchor Mechanism
 
 Anchoring means regularly forcing AI to:
-1. Run existing smoke tests
+1. Run existing probe tests
+2. Run existing test suite (E2E,Integration, Unit etc)
 2. Verify core functionality still works
 3. Check that new code doesn't violate established patterns
 4. Ensure integration points remain intact
 
-And if smoke tests pattern is used correctly then anchoring your development is simple as running such prompt:
+And if vibe tests pattern is used correctly then anchoring your development is simple as running such prompt:
 
 ```
-"We've implemented the new feature. Now let's run our smoke tests 
-to ensure all existing functionality still works correctly. If something is broken fix it"
+"We've implemented the new feature. Now let's run our tests 
+to ensure all existing functionality still works correctly. If something is broken we will fix it later. Once tests are  finished generate me a devdocs/what_is_broken.md"
 ```
 
 ## Anchoring with DevDocs Pattern
@@ -62,7 +63,7 @@ Ensure the new feature doesn't break existing requirements."
 The ultimate anchor is asking:
 ```
 "What existing functionality could this change break? 
-Let's test those specific areas."
+Let's add extra tests for those specific areas."
 ```
 
 This makes AI think about impact before problems occur.

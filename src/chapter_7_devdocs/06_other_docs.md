@@ -1,6 +1,10 @@
 
-
 ## Other Devdoc Files 
+
+This is a freestyle documentation zone. Just like how software development cant be done in one particular way, how people  approach to the project or knowledge is the same.  So feel free to create different format of devdocs suiting your need. 
+
+One example could be decisions.md to keep track of architectural decisions. 
+
 
 ### decisions.md
 

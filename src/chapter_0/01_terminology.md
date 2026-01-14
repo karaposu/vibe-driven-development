@@ -70,3 +70,9 @@ Enhanced human-in-the-loop intervention with focused vision alignment.
 
 ### Progressive Fidelity
 Starting with Lo-Fi for exploration, moving to Mid-Fi for implementation, and applying Hi-Fi for critical sections.
+
+
+
+### context fishing
+
+to get better result depends on the current active context. 
