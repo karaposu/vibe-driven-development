@@ -39,6 +39,7 @@
 - [The Anchor Pattern](chapter_10_anchor/the_anchor_pattern.md)
 - [Archaeology Pattern](chapter_11_archaeology_pattern/archaeology_pattern.md)
 - [Offload Pattern](chapter_12_offload/offload_pattern.md)
+- [Vibe Testing](chapter_13_vibe_testing/vibe_testing.md)
 
 # Appendices
 
@@ -46,6 +47,7 @@
 - [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md)
 - [Appendix 3: Refactoring with VDD](APPENDIX3_REFACTORING.md)
 - [Appendix 4: Adding New Features](APPENDIX4_ADDING_NEW_FEATURE.md)
+- [Appendix 5: Useful Prompts](APPENDIX5_USEFUL.md)
 
 ---
 

@@ -12,8 +12,8 @@ An emerging methodology that brings structure and repeatable patterns to vibe co
 ### DevDocs Pattern
 Living documentation that represents AI's understanding of the project, continuously updated throughout development.
 
-### Smoke Tests Pattern
-Comprehensive, verbose tests designed both for build verification and as specifications that AI can understand and implement against.
+### Probe Tests Pattern
+Comprehensive, verbose tests designed for discovery, diagnostics, and validation. Combines smoke testing, behavior observation, and requirement verification in one development loop.
 
 ### The Butterfly Defect
 Small semantic imprecisions that cascade into large architectural changes. Named after the butterfly effect, where using "modal" instead of "dialog" might shift the entire UI philosophy.
@@ -73,6 +73,5 @@ Starting with Lo-Fi for exploration, moving to Mid-Fi for implementation, and ap
 
 
 
-### context fishing
-
-to get better result depends on the current active context. 
+### Context Fishing
+The practice of asking AI bunch of targeted questions to surface relevant information from its current context. By prompting AI to retrieve and articulate what it knows, you improve the quality of subsequent responses. 
