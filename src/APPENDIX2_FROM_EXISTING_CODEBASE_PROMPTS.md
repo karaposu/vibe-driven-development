@@ -40,7 +40,11 @@ But talk about these in high level. As if you are introducing the architecture /
 
 put this in devdocs/archaeology/intro2codebase.md
 
-Also understand the current deployment approach and infastructure from the existing code/config/docker files and then put this in
+"""
+
+### Phase 2.5: Understanding  Deployment
+
+Understand the current deployment approach in this codebase and infastructure from the existing code/config/docker files and then put this in
 
 devdocs/archaeology/intro2deployment.md
 
@@ -48,7 +52,6 @@ Make sure talk about the codebase is prepare for what kind of deployment, ,which
 
 Also if it exists talk about the existing dockerfile and what it tells about deployment 
 
-"""
 
 ### Phase 3: Deeper look in CodeBase  
 

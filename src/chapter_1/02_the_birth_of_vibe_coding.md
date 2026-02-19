@@ -111,7 +111,7 @@ The future isn't AI replacing developers. It's developers wielding AI through vi
 
 
 
-After two years of AI-assisted development, I documented the patterns that emerged: Vibe-Driven Development
+After two years of AI-assisted development, I documented the patterns that emerged: AlignStack
 
   This is an online book that introduces vibe coding patterns such as DevDocs, smoke tests, anchor pattern, and more. For a quick
    overview, check out Appendix 1, where I provide ready-to-use prompts for starting a new AI-driven project.

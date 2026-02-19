@@ -4,7 +4,7 @@
 
 Traditional definition: Human reviews and corrects AI outputs.
 
-VDD definition: Human and AI alternate control dynamically, each contributing their unique strengths.
+AlignStack definition: Human and AI alternate control dynamically, each contributing their unique strengths.
 
 The loop isn't about supervision - it's about synergy.
 

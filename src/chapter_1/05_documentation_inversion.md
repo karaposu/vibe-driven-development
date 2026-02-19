@@ -22,7 +22,7 @@ Not the implementation - the specification.
 
 ## The Paradigm Flip
 
-With AI and VDD, we're returning to the original meaning. Documentation doesn't describe code anymore - it generates it and therefore they are tightly coupled
+With AI and AlignStack, we're returning to the original meaning. Documentation doesn't describe code anymore - it generates it and therefore they are tightly coupled
 
 **Old world**: Write code → Extract documentation
 **New world**: Write documentation with AI while Generating code
@@ -54,7 +54,7 @@ In vibe coding:
 - interface.md compiles to APIs  
 - known_requirements.md compiles to features
 
-Your documentation is source code for an AI compiler.
+Your documentation is source code for an AI compiler. These documents aren't just descriptions, they're alignment artifacts at different levels of the AlignStack.
 
 
 

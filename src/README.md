@@ -1,21 +1,21 @@
-# Vibe-Driven Development (VDD): Practical Guide
+# AlignStack: Aligning Human Intent with AI Implementation
 
 <div align="center">
-  <img src="cover.png" alt="Vibe-Driven Development Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
+  <img src="cover.png" alt="AlignStack Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
 </div>
 
 ## Welcome
 
-Welcome to the comprehensive guide on Vibe-Driven Development (VDD). This emerging methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline.
+Welcome to the comprehensive guide on AlignStack. This methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline.
 
-Unlike pure vibe coding, VDD offers systematic, repeatable foundations and fine-grained control at every stage of development.
+Unlike pure vibe coding, AlignStack offers systematic, repeatable foundations and fine-grained control at every stage of development.
 
 This book doesn't introduce new concepts. Instead, it codifies what many developers already do instinctively, turning scattered practices into a cohesive methodology.
 
 
 ### Core Principles
 
-VDD operates on four pillars of explicitness:
+AlignStack operates on four pillars of explicitness:
 
 - **Radical Transparency**: Make everything visible - tests, data flows, transformations
 - **Verbose Communication**: Chatty tests that explain what's happening
@@ -24,14 +24,14 @@ VDD operates on four pillars of explicitness:
 
 
 
-## Why VDD?
+## Why AlignStack?
 
 
 As software developers, we navigate real requirements, team dynamics, and technical constraints while balancing timelines, quality standards, and accountability.
 
 And recently we face immense pressure in our craft to harness the power of AI-assisted coding. Yet many treat AI as just a syntax generator, missing out on 10x productivity gains. Others hand over control entirely, inheriting brittle code and hidden vulnerabilities.
 
-VDD bridges this gap. An evolving framework for true developer-AI partnership without the compromises.
+AlignStack bridges this gap. An evolving framework for true developer-AI partnership without the compromises.
    
 
 
@@ -49,7 +49,7 @@ This book provides both philosophical foundation and practical implementation:
 
 If you prefer learning by doing:
 1. Jump to [Appendix 1: New Project Prompts](APPENDIX1_NEW_PROJECT_PROMPTS.md) for step-by-step implementation
-2. Use [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md) to apply VDD to existing projects
+2. Use [Appendix 2: From Existing Codebase Prompts](APPENDIX2_FROM_EXISTING_CODEBASE_PROMPTS.md) to apply AlignStack to existing projects
 
 ## Who Should Read This
 
@@ -61,13 +61,13 @@ This book is for you if you've ever:
 
 ## How to Navigate
 
-- **New to VDD?** Start with the [Preface](preface.md) and follow the chapters sequentially
+- **New to AlignStack?** Start with the [Preface](preface.md) and follow the chapters sequentially
 - **Experienced Developer?** Chapters 0-4 provide a 15-minute introduction to essential concepts
 - **Ready to Implement?** Jump directly to the appendices for practical prompts
 
 ## Join our communities for more tips interesting discussions
 
-[Linkedin VDD Community](https://www.linkedin.com/groups/15074007/)
+[Linkedin AlignStack Community](https://www.linkedin.com/groups/15074007/)
 
 
 

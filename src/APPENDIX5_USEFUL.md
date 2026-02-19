@@ -1,6 +1,6 @@
 # Appendix 5: Useful Prompts
 
-A collection of prompts for common VDD workflows.
+A collection of prompts for common AlignStack workflows.
 
 ---
 
@@ -56,6 +56,57 @@ devdocs/enhancements/[enhancement_name]/
 │       ├── gap_2_answer.md
 │       └── ...
 ```
+
+---
+
+---
+
+## File Relevance Mapping
+
+Use this to identify which files are relevant to a task before starting work.
+
+### Prompt Template
+
+```
+Based on the given task definition, explore the codebase and generate a file relevance map.
+
+Use tree command (only include code and config files) and output the results
+in devdocs/[task_name]/relevant_files.md
+
+Mark each file with a tier:
+
+🔴 HOT - Will be actively changed during this task
+🟡 WARM - Relevant for understanding, mostly read-only reference
+⚪ COLD - Irrelevant to this task
+
+Example output format:
+
+src/
+├── 🔴 auth/
+│   ├── 🔴 login.py          # Main file to modify
+│   └── 🟡 session.py        # Need to understand session handling
+├── 🟡 models/
+│   └── 🟡 user.py           # Reference for user schema
+├── ⚪ utils/
+│   └── ⚪ helpers.py        # Not relevant
+└── 🔴 tests/
+    └── 🔴 test_auth.py      # Tests to update
+
+Task definition:
+[INSERT TASK HERE]
+```
+
+### Why This Matters
+
+Before touching code, you need to know:
+- What files you'll modify (HOT)
+- What files provide context (WARM)
+- What files to ignore (COLD)
+
+This prevents:
+- Missing important dependencies
+- Wasting time reading irrelevant code
+- Breaking things you didn't know were connected
 
 ---
 

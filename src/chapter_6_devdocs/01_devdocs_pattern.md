@@ -2,7 +2,7 @@
 
 ## Why Documentation Drives Development
 
-In traditional development, code comes first and documentation follows. In VDD, this relationship inverts: documentation becomes the source code that AI compiles into implementation. When AI understands not just what to build but why and how it fits together, it transforms from a code generator into a thoughtful collaborator.
+In traditional development, code comes first and documentation follows. In AlignStack, this relationship inverts: documentation becomes the source code that AI compiles into implementation. When AI understands not just what to build but why and how it fits together, it transforms from a code generator into a thoughtful collaborator.
 
 The DevDocs pattern solves three critical problems:
 
@@ -70,6 +70,6 @@ project-root/
 
 
 Besides from these there can be other type of side product documents depending on the project. 
-Now we will go through each of them and explain what makes them powerful for VDD. 
+Now we will go through each of them and explain what makes them powerful for AlignStack. 
 
 

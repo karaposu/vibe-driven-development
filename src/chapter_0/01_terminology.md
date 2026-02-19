@@ -1,12 +1,12 @@
 # Terminology
 
-This chapter defines key terms and concepts used throughout the Vibe-Driven Development methodology.
+This chapter defines key terms and concepts used throughout the AlignStack methodology.
 
 ### Vibe Coding
 The practice of collaborative development with AI assistants, emphasizing natural communication and iterative refinement over rigid specifications.
 
-### Vibe-Driven Development (VDD)
-An emerging methodology that brings structure and repeatable patterns to vibe coding, providing systematic foundations and granular control throughout the development process.
+### AlignStack
+A methodology that brings structure and repeatable patterns to vibe coding through layered alignment between human intent and AI understanding via human-readable specifications. Provides systematic foundations and granular control throughout the development process.
 
 
 ### DevDocs Pattern
@@ -46,7 +46,7 @@ The concept that tests serve as a communication medium with AI, teaching it requ
 The initial transfer of all available project information to AI, often messy and unstructured.
 
 ### Retrofitting 
-Introducing VDD methodologies to projects that were originally developed without them.
+Introducing AlignStack methodologies to projects that were originally developed without them.
 
 
 ### Latent Persona

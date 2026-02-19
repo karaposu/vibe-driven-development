@@ -2,7 +2,7 @@
 
 ## Why Foundation Documents Matter
 
-Foundation documents are the bedrock of VDD. They capture your original vision in a structured format, establishing the core truths that guide every decision throughout the project. 
+Foundation documents are the bedrock of AlignStack. They capture your original vision in a structured format, establishing the core truths that guide every decision throughout the project. 
 
 
 

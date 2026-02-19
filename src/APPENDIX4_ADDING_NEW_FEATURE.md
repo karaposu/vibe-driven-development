@@ -1,10 +1,10 @@
-# APPENDIX 4: ADDING NEW FEATURES WITH VDD
+# APPENDIX 4: ADDING NEW FEATURES WITH ALIGNSTACK
 
-This appendix provides ready-to-use prompts for systematically planning and implementing new features using the Vibe-Driven Development methodology. These prompts ensure thorough planning, risk assessment, and safe implementation.
+This appendix provides ready-to-use prompts for systematically planning and implementing new features using the AlignStack methodology. These prompts ensure thorough planning, risk assessment, and safe implementation.
 
 ## OVERVIEW
 
-Adding features in VDD follows a structured documentation-first approach that prevents scope creep, identifies risks early, and provides clear implementation paths for AI collaboration.
+Adding features in AlignStack follows a structured documentation-first approach that prevents scope creep, identifies risks early, and provides clear implementation paths for AI collaboration.
 
 ## PHASE 1: FEATURE DISCOVERY & DOCUMENTATION
 
@@ -60,18 +60,12 @@ it should start with  High level plan summary in bullet points and then explain 
 ```
 Now based on the feature implementation plan (reread it ully)
 
-I want you ultrathink and  and Identify ERRORs, compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan caueses:
+I want you ultrathink and  and Identify ERRORs, compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan causes:
 - Existing features that might break
 - Performance implications
 - API contract changes
 - Database schema impacts
 - Security considerations
-
-Analyze how this feature will interact with the existing codebase:
-
-1. Read all relevant module interfaces and implementations
-2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/critic.md
-
 
 Document:
 - Potential conflicts or breaking changes or errors. 
@@ -84,6 +78,14 @@ Document:
 
 Rate each risk as: Low/Medium/High
 Suggest mitigation strategies for Medium/High risks.
+
+Analyze how this feature will interact with the existing codebase:
+
+1. Read all relevant module interfaces and implementations
+2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/critic.md
+
+
+
 
 ```
 
@@ -187,7 +189,7 @@ Use feature name as a folder and inside create:
 
 ### Step-8: Stable INtermediate Form (Anchor check)
 
-Run all other probe tests to see this implemention did not break anyhthing. 
+Run all other existing tests to see this implemention did not break anyhthing. 
 
 
 ## PHASE 4: COMPLETION & DOCUMENTATION
@@ -214,7 +216,17 @@ devdocs/features/planned/feat_X_[FEATURE_NAME]/implementation_notes.md:
 
 ```
 Move this feature to finished status.  Move the feat from planned folder to finished folder
+
+
 ```
+
+
+# Alternative 
+
+for really complex tasks which requires more granular control during the implementation I use a different approach 
+
+instead of directly creating step by step plan 
+we create stage by stage plan and once it is confirmed each stage is seperated in devdocs folder and for eaach stage we create desc.md step_by_step_plan.md and critic.md etc. 
 
 
 

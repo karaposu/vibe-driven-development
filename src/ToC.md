@@ -1,8 +1,8 @@
-# The Vibe Coding Handbook: Patterns and Practices
+# AlignStack: Aligning Human Intent with AI Implementation
 
 ## Table of Contents
 
-### Part I: Foundations of Vibe Coding
+### Part I: Foundations
 
 **Chapter 0: Terminology**
 - Key terms and concepts
@@ -11,13 +11,12 @@
 - From Waterfall to Agile to AI-Assisted
 - The Birth of Vibe Coding
 - Why Traditional Methods Fall Short with AI
-
-**Chapter 2: Core Philosophy**
-- Code is the Documentation >>> Documentation is the Code
-- Semantic Precision and "The Butterfly Defect"
-- AI Taming: Keeping Control While Leveraging Power
 - Emergence of New Design Patterns
-- The Human-in-the-Loop Principle
+- The Documentation Inversion
+
+**Chapter 2: The AlignStack Framework**
+- The Alignment Chain
+- Alignment Artifacts
 
 ### Part II: Understanding AI Collaboration
 
@@ -26,19 +25,20 @@
 - Context Windows and Memory
 - Strengths and Limitations
 
-**Chapter 4: The Human-AI Development Loop**
+**Chapter 4: Practical AI Collaboration**
+- AI Taming: Keeping Control While Leveraging Power
 - When to Guide vs When to Follow
 - Managing AI Drift
+- Semantic Precision and "The Butterfly Defect"
+- The Human-in-the-Loop Principle
+- Understanding Ground Rules
 
-**Chapter 5: Essential Ground Rules**
-- Setting up for success with AI
-
-**Chapter 6: The Data Dump**
+**Chapter 5: The Data Dump**
 - Starting with complete context
 
-### Part III: Vibe Coding Patterns
+### Part III: AlignStack Patterns
 
-**Chapter 7: DevDocs Pattern**
+**Chapter 6: DevDocs Pattern**
 - Foundation Docs
 - Concept Docs
 - Feature Docs
@@ -46,28 +46,28 @@
 - Module Docs
 - Other Docs
 
-**Chapter 8: Probe Tests Pattern**
+**Chapter 7: Probe Tests Pattern**
 - Discovery, Diagnostic, and Validation
 - Testing Coupled Components
 - Micro to Macro progression
 
-**Chapter 9: Fuzzy Architecture**
+**Chapter 8: Fuzzy Architecture**
 - Intentionally vague starting points
 - Crystallizing through implementation
 
-**Chapter 10: The Anchor Pattern**
+**Chapter 9: The Anchor Pattern**
 - Stable Intermediate Forms
 - Preventing regression
 
-**Chapter 11: Archaeology Pattern**
+**Chapter 10: Archaeology Pattern**
 - Understanding existing codebases
 - Excavating wisdom from legacy code
 
-**Chapter 12: Offload Pattern**
+**Chapter 11: Offload Pattern**
 - Making AI's job easier
 - Explicit variable naming
 
-**Chapter 13: Vibe Testing**
+**Chapter 12: Vibe Testing**
 - Comprehensive test planning
 - Operation and concept testing
 
@@ -75,7 +75,7 @@
 
 - Appendix 1: New Project Prompts
 - Appendix 2: From Existing Codebase Prompts
-- Appendix 3: Refactoring with VDD
+- Appendix 3: Refactoring with AlignStack
 - Appendix 4: Adding New Features
 - Appendix 5: Useful Prompts
 

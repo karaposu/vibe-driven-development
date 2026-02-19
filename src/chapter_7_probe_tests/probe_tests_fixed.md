@@ -15,7 +15,7 @@ This is different in nature from E2E or Integration or Unit tests. Probe tests a
 Probe tests are used for
  - Understanding how an extermal framework works, reacts to inputs or produces outputs
  - Creating the first stable intermediate form of the new prototype. 
- - Quick way of interating over design. If codebase is not stable and design has big potential of changing/evolving writing comprehensive test suits are waste of time.  
+ - Quick way of iterating over design. If codebase is not stable and design has big potential of changing/evolving writing comprehensive test suits are waste of time.  
 
 
 ## Why It Matters
