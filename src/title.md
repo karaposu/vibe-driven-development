@@ -1,3 +1,3 @@
-"AlignStack: Aligning Human Intent with AI Implementation" (Jan 2026)
+"AlignStack: Aligning Human Intent with AI Implementation" (March 2026)
 
 

@@ -133,6 +133,35 @@ These aren't bureaucratic paperwork. They're proof of alignment — a checkpoint
 
 When work goes wrong, you can trace back to exactly which level of alignment broke down. When work goes right, these artifacts explain why.
 
+## The Four Pillars
+
+The alignment chain tells you *where* alignment can break — six layers, from workspace to outcome. But what does it actually take to maintain alignment at each layer?
+
+Alignment requires Comparison.
+Comparison requires Measurement.
+Measurement requires Visibility.
+Visibility requires Explicitness.
+
+This chain of logic gives us four pillars. They aren't separate from the alignment layers — they're what you apply *at* each layer:
+
+- **Explicitness** — State it clearly. Intent, context, and boundaries are documented, not assumed.
+- **Visibility** — Make it observable. All relevant state, data flows, and transformations are accessible.
+- **Measurement** — Make it verifiable. Differences between intent and outcome are quantifiable, not vague.
+- **Comparison** — Check intent vs outcome. Continuously compare what was meant against what was produced.
+
+The six layers are WHERE alignment can break. The four pillars are WHAT you need at each layer to maintain it.
+
+### Pillars Applied Across Layers
+
+At every alignment layer, all four pillars apply. For example, at Task Alignment (Level 1):
+
+- Explicitness → write clear task requirements
+- Visibility → make requirements accessible to AI
+- Measurement → define success criteria
+- Comparison → verify AI's understanding matches yours
+
+The layers come from the nature of delegation — you hand off work, and it can break at six points. The pillars come from the nature of alignment itself — what it takes to keep things aligned at any point.
+
 ## Alignment in Practice
 
 The alignment chain applies whether you're delegating to a junior developer, briefing a contractor, or prompting an AI. The failure modes are the same:

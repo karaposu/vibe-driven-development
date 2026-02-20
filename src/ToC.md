@@ -78,6 +78,7 @@
 - Appendix 3: Refactoring with AlignStack
 - Appendix 4: Adding New Features
 - Appendix 5: Useful Prompts
+- Appendix 8: Dynamic Prompts
 
 ---
 

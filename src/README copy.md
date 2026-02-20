@@ -1,40 +1,36 @@
 # AlignStack: Aligning Human Intent with AI Implementation
 
 <div align="center">
-  <img src="cover2_bad.png" alt="AlignStack Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
+  <img src="cover.png" alt="AlignStack Book Cover" style="max-width: 500px; width: 100%; height: auto; margin: 2em 0;">
 </div>
 
 ## Welcome
 
-Welcome to the comprehensive guide on AlignStack. This methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline. The core philosophy of this book can be summarized in this way:
+Welcome to the comprehensive guide on AlignStack. This methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline. The core philisophy of this book can be summarized in this way
 
-When you delegate work to AI, failure can happen at 6 different alignment layers:
+When you delegate work to a AI, a failure can happen at 5 different alignemnet layers
+1. Task is not understood well
+2. AI doesnt know about the context 
+3. AI doesnt understand what action space should be used
+4. Ai doesnt understand what set of actions is preferable and feasible 
+5. AI doesnt understand how actions taken and expected results are in mismatch. 
 
-1. **Workspace Alignment** — The environment and context aren't set up correctly
-2. **Task Alignment** — The task is not understood well
-3. **Action-Space Alignment** — AI doesn't know what action space should be used
-4. **Action-Set Alignment** — AI doesn't understand what set of actions is preferable and feasible
-5. **Coherence Alignment** — AI doesn't understand how the actions taken disturb existing alignments
-6. **Outcome Alignment** — AI doesn't understand how actions taken and expected results are in mismatch
+Therefore with Alignstack Methhodology we identified some patterns ( mostly for AI assisted SWE practice)
+which allowed us to keep Aligment on these 5 different levels using these patterns.
 
-Therefore, with the AlignStack Methodology we identified patterns (mostly for AI-assisted SWE practice) which allow us to maintain alignment on these 6 different levels.
-
-Unlike pure vibe coding, AlignStack offers systematic, repeatable foundations and fine-grained control at every stage of development.
+Via these patterns, nnlike pure vibe coding, AlignStack offers systematic, repeatable foundations and fine-grained control at every stage of development.
 
 This book doesn't introduce new concepts. Instead, it codifies what many developers already do instinctively, turning scattered practices into a cohesive methodology.
 
 
 ### Core Principles
 
-Alignment requires Comparison.
-Comparison requires Measurement.
-Measurement requires Visibility.
-Visibility requires Explicitness.
+AlignStack operates on four pillars of explicitness:
 
-
-These 4 pillars WHAT we need at each layer to maintain alignement.  Once they are applied across six alignment layers they etch the AlignStack methodology into our workflows. 
-
-The rest of this book explains how to implement them in your workflows.
+- **Radical Transparency**: Make everything visible - tests, data flows, transformations
+- **Verbose Communication**: Chatty tests that explain what's happening
+- **Explicit Over Implicit**: No hidden behaviors or assumptions
+- **Human-in-the-Loop**: Maintain control while leveraging AI power
 
 
 
@@ -53,10 +49,10 @@ AlignStack bridges this gap. An evolving framework for true developer-AI partner
 
 This book provides both philosophical foundation and practical implementation:
 
-- **Part I**: Foundations - History, philosophy, and core concepts
+- **Part I**: Foundations of Vibe Coding - History, philosophy, and core concepts
 - **Part II**: Understanding AI Collaboration - How AI thinks about code and effective collaboration
-- **Part III**: AlignStack Patterns - Essential patterns like DevDocs, Anchor, Probe Tests, and Fuzzy Architecture
-- **Part IV**: The AlignStack Method - Step-by-step implementation guide
+- **Part III**: Vibe Coding Patterns - Essential patterns like DevDocs, Anchor, Smoke Tests, and Fuzzy Architecture
+- **Part IV**: The Vibe Coding Method - Step-by-step implementation guide
 - **Appendices**: Ready-to-use prompts and templates
 
 ## Quick Start

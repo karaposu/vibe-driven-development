@@ -1,12 +1,12 @@
 Okay your task for now is to improve a prompt
 
-We have such prompt for Generating the critic.md agaisnt created implementation plan. 
-With created critic.md how we usually plan and improve the plan later on so it is vital that critic catches problems and correct ones, the ones that matter. 
+We have a prompt for generating `critic.md` against an already created implementation plan. Since the critic drives how we revise and improve the plan, it is vital that it catches the right problems — the ones that actually matter.
 
+Here prompt starts:
 ----
-Now based on the feature implementation plan (reread it ully)
+Now based on the implementation plan 
 
-I want you ultrathink and  and Identify ERRORs, compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan causes:
+I want you ultrathink and Identify ERRORs, compatibility ISSUES, RISKS and CONFLICTS with respect to whole codebase's work logic. Check if this implementation plan causes:
 - Existing features that might break
 - Performance implications
 - API contract changes
@@ -28,15 +28,13 @@ Suggest mitigation strategies for Medium/High risks.
 Analyze how this feature will interact with the existing codebase:
 
 1. Read all relevant module interfaces and implementations
-2. Create devdocs/enhancements/db_indexing/stage1/critic.md
+2. Create critic.md in relevant devdocs folder (same folder as our step by step plan file )
 
 ----
 
+But this prompt is too generic — it doesn't account for the specifics of the current task.
+The critic prompt should be generated dynamically, informed by the existing codebase. It needs to ask the right questions for this particular implementation plan, not just a generic checklist.
 
-but this prompt is too generic and doesnt cover well our current active task  which is Frontend related
 
-ANd it matters that critic prompt should be created using already existing codebase. 
+Based on context you have of the codebase, task itself and step by step plan; generate an improved critic prompt tailored to the given implementation plan and output it below.
 
-and create me a better critic prompt which asks the correct questions for this given implementation plan 
-
-output the prompt here

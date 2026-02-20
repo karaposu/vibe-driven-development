@@ -25,16 +25,17 @@ This book doesn't introduce new concepts. Instead, it codifies what many develop
 
 
 ### Core Principles
+Alignment requires comparasion. 
+Comparasion requires measurement.
+Measurement requires visibility (in terms of intent). 
+Visibility requires ...
 
-Alignment requires Comparison.
-Comparison requires Measurement.
-Measurement requires Visibility.
-Visibility requires Explicitness.
+AlignStack operates on four pillars of explicitness:
 
-
-These 4 pillars WHAT we need at each layer to maintain alignement.  Once they are applied across six alignment layers they etch the AlignStack methodology into our workflows. 
-
-The rest of this book explains how to implement them in your workflows.
+- **Radical Transparency**: Make everything visible - tests, data flows, transformations
+- **Verbose Communication**: Chatty tests that explain what's happening
+- **Explicit Over Implicit**: No hidden behaviors or assumptions
+- **Human-in-the-Loop**: Maintain control while leveraging AI power
 
 
 
