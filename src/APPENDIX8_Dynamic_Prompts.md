@@ -30,15 +30,12 @@ Analyze how this feature will interact with the existing codebase:
 1. Read all relevant module interfaces and implementations
 2. Create devdocs/enhancements/db_indexing/stage1/critic.md
 
-
-
 ----
 
 
-but this prompt is too generic and doesnt cover well our current active task 
+but this prompt is too generic and doesnt cover well our current active task  which is Frontend related
 
 ANd it matters that critic prompt should be created using already existing codebase. 
-So make sure to reread all files in devdocs/enhancements/db_indexing/understanding 
 
 and create me a better critic prompt which asks the correct questions for this given implementation plan 
 
