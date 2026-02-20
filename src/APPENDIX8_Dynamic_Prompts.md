@@ -22,8 +22,9 @@ Document:
 - Required refactoring before implementation
 - Performance implications (latency, memory, storage)
 
-Rate each risk as: Low/Medium/High
-Suggest mitigation strategies for Medium/High risks.
+Rate each risk (severity) as: Low/Medium/High
+For each Medium/High risk, suggest three levels of mitigation: a quick fix, a robust fix, and a long-term fix.
+Each Item should have impact field (possible effects of this Risk Item ), ELI5 field (non technical explanaition),  
 
 Analyze how this feature will interact with the existing codebase:
 

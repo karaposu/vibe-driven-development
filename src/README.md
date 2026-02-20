@@ -6,9 +6,10 @@
 
 ## Welcome
 
-Welcome to the comprehensive guide on AlignStack. This methodology transforms the intuitive art of vibe coding into a structured approach with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline. The core philosophy of this book can be summarized in this way:
+AlignStack transforms AI assited coding into a structured methodology with repeatable patterns for AI collaboration. It bridges the gap between coding by feel and engineering discipline. The core philosophy:
 
-When you delegate work to AI, failure can happen at 6 different alignment layers:
+
+When you delegate work to AI, misalignment can occur at six layers:
 
 1. **Workspace Alignment** — The environment and context aren't set up correctly
 2. **Task Alignment** — The task is not understood well
@@ -17,7 +18,7 @@ When you delegate work to AI, failure can happen at 6 different alignment layers
 5. **Coherence Alignment** — AI doesn't understand how the actions taken disturb existing alignments
 6. **Outcome Alignment** — AI doesn't understand how actions taken and expected results are in mismatch
 
-Therefore, with the AlignStack Methodology we identified patterns (mostly for AI-assisted SWE practice) which allow us to maintain alignment on these 6 different levels.
+AlignStack provides patterns for maintaining alignment across all six levels — primarily for AI-assisted software engineering.
 
 Unlike pure vibe coding, AlignStack offers systematic, repeatable foundations and fine-grained control at every stage of development.
 
@@ -31,8 +32,7 @@ Comparison requires Measurement.
 Measurement requires Visibility.
 Visibility requires Explicitness.
 
-
-These 4 pillars WHAT we need at each layer to maintain alignement.  Once they are applied across six alignment layers they etch the AlignStack methodology into our workflows. 
+These four pillars define what we need at each layer to maintain alignment. Applied across all six layers, they form the foundation of AlignStack
 
 The rest of this book explains how to implement them in your workflows.
 
@@ -43,7 +43,7 @@ The rest of this book explains how to implement them in your workflows.
 
 As software developers, we navigate real requirements, team dynamics, and technical constraints while balancing timelines, quality standards, and accountability.
 
-And recently we face immense pressure in our craft to harness the power of AI-assisted coding. Yet many treat AI as just a syntax generator, missing out on 10x productivity gains. Others hand over control entirely, inheriting brittle code and hidden vulnerabilities.
+Recently we face immense pressure in our craft to harness the power of AI-assisted coding. Yet many treat AI as just a syntax generator, missing out on 10x productivity gains. Others hand over control entirely, inheriting brittle code and hidden vulnerabilities.
 
 AlignStack bridges this gap. An evolving framework for true developer-AI partnership without the compromises.
    
@@ -79,7 +79,7 @@ This book is for you if you've ever:
 - **Experienced Developer?** Chapters 0-4 provide a 15-minute introduction to essential concepts
 - **Ready to Implement?** Jump directly to the appendices for practical prompts
 
-## Join our communities for more tips interesting discussions
+## Join our community for tips and discussion
 
 [Linkedin AlignStack Community](https://www.linkedin.com/groups/15074007/)
 
