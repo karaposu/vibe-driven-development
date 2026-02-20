@@ -1,9 +1,9 @@
 [book]
-title = "Vibe-Driven Development (VDD)"
-authors = ["VDD Community"]
+title = "AlignStack: Aligning Human Intent with AI Implementation"
+authors = ["AlignStack Community"]
 language = "en"
 src = "src"
-description = "A revolutionary approach to software development designed for the age of AI-assisted programming"
+description = "A pattern-based methodology for aligning human intent with AI implementation in software development"
 
 [build]
 build-dir = "book"
