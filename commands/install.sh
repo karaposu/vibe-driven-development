@@ -26,6 +26,8 @@ commands=(
   arch-intro.md
   arch-traces.md
   arch-top-improvements.md
+  dead-code-index.md
+  dead-code-concepts.md
 )
 
 for cmd in "${commands[@]}"; do
@@ -54,7 +56,7 @@ echo ""
 echo "Done. Installed ${#commands[@]} slash commands to $COMMANDS_DIR"
 echo "Done. Installed ${#hooks[@]} hooks to $HOOKS_DIR"
 echo ""
-echo "Slash commands: /elaborate, /task-desc, /task-plan, /critic, /critic-d, /sense-making, /arch-small-summary, /arch-intro, /arch-traces, /arch-top-improvements"
+echo "Slash commands: /elaborate, /task-desc, /task-plan, /critic, /critic-d, /sense-making, /arch-small-summary, /arch-intro, /arch-traces, /arch-top-improvements, /dead-code-index, /dead-code-concepts"
 echo ""
 echo "To activate the devdocs metadata hook, add this to .claude/settings.json:"
 echo ""

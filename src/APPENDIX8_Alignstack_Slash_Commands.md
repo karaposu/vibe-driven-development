@@ -188,6 +188,32 @@ Requires `/arch-traces` to have been run first.
 
 ---
 
+### `/dead-code-index`
+
+Scan the codebase and inventory all unused code candidates — unreferenced files, dead code paths, commented-out blocks, duplicate implementations, abandoned features, orphaned tests and configs. Each candidate gets structured fields (imported by, called by, used in configs, dynamic loading, attached concepts, assumed intent, confidence) plus a ready-to-run grep command for manual verification.
+
+Does not delete anything — inventory only.
+
+**Input**: None
+**Output**: `devdocs/archaeology/dead_code_index.md`
+
+[View full command](../commands/dead-code-index.md)
+
+---
+
+### `/dead-code-concepts`
+
+Analyze dead code at a concept level. Groups dead code entries from `/dead-code-index` into higher-level concepts — technical frameworks, business logic, design patterns, architecture, methodology, conventions — and identifies which ideas the codebase has moved past entirely.
+
+Requires `/dead-code-index` to have been run first.
+
+**Input**: None
+**Output**: `devdocs/archaeology/dead_concepts_index.md`
+
+[View full command](../commands/dead-code-concepts.md)
+
+---
+
 ## Quick Reference
 
 | Command | What it does | Output |
@@ -202,6 +228,8 @@ Requires `/arch-traces` to have been run first.
 | `/arch-intro` | Architecture introduction | `devdocs/archaeology/intro2codebase.md` + conversation |
 | `/arch-traces` | End-to-end interaction traces | `devdocs/archaeology/traces/` |
 | `/arch-top-improvements` | 5 highest-impact improvements | `devdocs/archaeology/top_improvements.md` |
+| `/dead-code-index` | Inventory unused code candidates | `devdocs/archaeology/dead_code_index.md` |
+| `/dead-code-concepts` | Group dead code into dead concepts | `devdocs/archaeology/dead_concepts_index.md` |
 
 ## Hooks
 
