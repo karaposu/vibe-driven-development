@@ -83,7 +83,7 @@ Suggest mitigation strategies for Medium/High risks.
 Analyze how this feature will interact with the existing codebase:
 
 1. Read all relevant module interfaces and implementations
-2. Create devdocs/features/planned/feat_X_[FEATURE_NAME]/critic.md
+2. Create critic.md in step by step plan directory
 
 
 

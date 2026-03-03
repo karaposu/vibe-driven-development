@@ -69,6 +69,19 @@ Based on context you have of the codebase, task itself and step by step plan; ge
 
  - Make sure generated custom critic is still generic enough but also questions are towards correct and relevant concepts of the feature and the codease, otherwise next phase might miss undocumented details. We want custom critic to be custom tailored to the concepts of the codebase and the feature itself and not to implementation details.    
 
+ - Make sure generated prompt includes output instructions "Create a `critic.md` file in the same directory as the implementation plan. And this output file has high level summary on top". 
+
+ - Make sure generated prompt includes:
+
+ """
+## Output Format
+
+For each risk found, document:
+
+Desc, Risk Desc, Severity (| Low / Medium / High |), Impact, ELI5 desc, Affected areas,  Mitigation** (Medium/High only) and Category (| Breaking change / Import error / Circular import / Package discovery / Stale cache / Missing file / Phase ordering |)
+
+ """
+
   - Save the generated prompt** as `dynamic_critic_prompt.md` in the same directory as the `step_by_step_plan.md`.
  - Print the generated prompt** in the conversation so the user can read it.
  - Ask the user: *"Here's the dynamic critic prompt I generated. Should I run it now?"*

@@ -32,6 +32,7 @@ For each candidate, document:
 - **Assumed intent** — based on the code's content (naming, structure, fields, parameters), what was this likely meant to do? What direction was it heading? This is inference, not fact — label it as such.
 - **Confidence** (Definite / Likely / Uncertain)
 - **Search command** — a ready-to-run `grep -rn` command to find all mentions of this code in the codebase
+- **Mark for removal in future?** — (leave empty — human marks "yes" to approve future removal)
 
 Do NOT delete anything. This is an inventory only.
 
